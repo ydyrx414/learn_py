@@ -1,0 +1,1898 @@
+[
+    {
+        "label": "this",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "this",
+        "description": "this",
+        "detail": "this",
+        "documentation": {
+            "value": "\n```python\nimport this\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "foods",
+        "kind": 5,
+        "importPath": "4-5py.4-13",
+        "description": "4-5py.4-13",
+        "peekOfCode": "foods = ('chocolate','sandwich','hamburger')\nprint(\"Foods:\")\nfor food in foods:\n    print(food)",
+        "detail": "4-5py.4-13",
+        "documentation": {
+            "value": "\n```python\nfrom 4-5py.4-13 import foods\n```\n\n```python\n\n\n```\n\n```python\nfoods = ('chocolate','sandwich','hamburger')\nprint(\"Foods:\")\nfor food in foods:\n    print(food)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "dimensions",
+        "kind": 5,
+        "importPath": "4-5py.4-5-1",
+        "description": "4-5py.4-5-1",
+        "peekOfCode": "dimensions = (200,50)\nprint(dimensions[0])\nprint(dimensions[1])",
+        "detail": "4-5py.4-5-1",
+        "documentation": {
+            "value": "\n```python\nfrom 4-5py.4-5-1 import dimensions\n```\n\n```python\n\n\n```\n\n```python\ndimensions = (200,50)\nprint(dimensions[0])\nprint(dimensions[1])\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "dimensions",
+        "kind": 5,
+        "importPath": "4-5py.4-5-2",
+        "description": "4-5py.4-5-2",
+        "peekOfCode": "dimensions = (200,50)\nfor dimension in dimensions:\n    print(dimension)",
+        "detail": "4-5py.4-5-2",
+        "documentation": {
+            "value": "\n```python\nfrom 4-5py.4-5-2 import dimensions\n```\n\n```python\n\n\n```\n\n```python\ndimensions = (200,50)\nfor dimension in dimensions:\n    print(dimension)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "dimensions",
+        "kind": 5,
+        "importPath": "4-5py.4-5-3",
+        "description": "4-5py.4-5-3",
+        "peekOfCode": "dimensions = (200,50)\nprint(\"Orginal dimensions:\")\nfor dimension in dimensions:\n    print(dimension)\ndimensions = (400,100)\nprint(\"\\nModified dimensions:\")\nfor dimension in dimensions:\n    print(dimension)",
+        "detail": "4-5py.4-5-3",
+        "documentation": {
+            "value": "\n```python\nfrom 4-5py.4-5-3 import dimensions\n```\n\n```python\n\n\n```\n\n```python\ndimensions = (200,50)\nprint(\"Orginal dimensions:\")\nfor dimension in dimensions:\n    print(dimension)\ndimensions = (400,100)\nprint(\"\\nModified dimensions:\")\nfor dimension in dimensions:\n    print(dimension)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "dimensions",
+        "kind": 5,
+        "importPath": "4-5py.4-5-3",
+        "description": "4-5py.4-5-3",
+        "peekOfCode": "dimensions = (400,100)\nprint(\"\\nModified dimensions:\")\nfor dimension in dimensions:\n    print(dimension)",
+        "detail": "4-5py.4-5-3",
+        "documentation": {
+            "value": "\n```python\nfrom 4-5py.4-5-3 import dimensions\n```\n\n```python\n\n\n```\n\n```python\ndimensions = (400,100)\nprint(\"\\nModified dimensions:\")\nfor dimension in dimensions:\n    print(dimension)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "cars",
+        "kind": 5,
+        "importPath": "chapter5.5-1",
+        "description": "chapter5.5-1",
+        "peekOfCode": "cars = ['audi','bmw','subaru','toyota']\nfor car in cars:\n    if car == 'bmw':\n        print(car.upper())\n    else:\n        print(car.title())",
+        "detail": "chapter5.5-1",
+        "documentation": {
+            "value": "\n```python\nfrom chapter5.5-1 import cars\n```\n\n```python\n\n\n```\n\n```python\ncars = ['audi','bmw','subaru','toyota']\nfor car in cars:\n    if car == 'bmw':\n        print(car.upper())\n    else:\n        print(car.title())\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "car",
+        "kind": 5,
+        "importPath": "chapter5.5-2",
+        "description": "chapter5.5-2",
+        "peekOfCode": "car = 'Audi'\ncar == 'audi'\nage = 19\nage < 21",
+        "detail": "chapter5.5-2",
+        "documentation": {
+            "value": "\n```python\nfrom chapter5.5-2 import car\n```\n\n```python\n\n\n```\n\n```python\ncar = 'Audi'\ncar == 'audi'\nage = 19\nage < 21\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "chapter5.5-2",
+        "description": "chapter5.5-2",
+        "peekOfCode": "age = 19\nage < 21",
+        "detail": "chapter5.5-2",
+        "documentation": {
+            "value": "\n```python\nfrom chapter5.5-2 import age\n```\n\n```python\n\n\n```\n\n```python\nage = 19\nage < 21\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "chapter5.5-3-1",
+        "description": "chapter5.5-3-1",
+        "peekOfCode": "age = 19\nif age >=18:\n    print(\"You are old enough to vote!\")",
+        "detail": "chapter5.5-3-1",
+        "documentation": {
+            "value": "\n```python\nfrom chapter5.5-3-1 import age\n```\n\n```python\n\n\n```\n\n```python\nage = 19\nif age >=18:\n    print(\"You are old enough to vote!\")\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "chapter5.5-3-3",
+        "description": "chapter5.5-3-3",
+        "peekOfCode": "age = 12\nif age<4:\n    print(\"Your admission cost is 0\")\nelif age<18:\n    print(\"Your admission cost is 5\")\nelse:\n    print(\"Your admission cost is 10\")",
+        "detail": "chapter5.5-3-3",
+        "documentation": {
+            "value": "\n```python\nfrom chapter5.5-3-3 import age\n```\n\n```python\n\n\n```\n\n```python\nage = 12\nif age<4:\n    print(\"Your admission cost is 0\")\nelif age<18:\n    print(\"Your admission cost is 5\")\nelse:\n    print(\"Your admission cost is 10\")\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "requerted_toppings",
+        "kind": 5,
+        "importPath": "chapter5.5-4-2",
+        "description": "chapter5.5-4-2",
+        "peekOfCode": "requerted_toppings = []\nif requerted_toppings:\n    for requerted_topping in requerted_toppings:\n        print(\"Adding \" + requerted_topping +'.')\n    print(\"\\nFinished making your pizza!\")\nelse:\n    print(\"Are you sure you want a plain pizza?\")",
+        "detail": "chapter5.5-4-2",
+        "documentation": {
+            "value": "\n```python\nfrom chapter5.5-4-2 import requerted_toppings\n```\n\n```python\n\n\n```\n\n```python\nrequerted_toppings = []\nif requerted_toppings:\n    for requerted_topping in requerted_toppings:\n        print(\"Adding \" + requerted_topping +'.')\n    print(\"\\nFinished making your pizza!\")\nelse:\n    print(\"Are you sure you want a plain pizza?\")\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "available_topings",
+        "kind": 5,
+        "importPath": "chapter5.5-4-3",
+        "description": "chapter5.5-4-3",
+        "peekOfCode": "available_topings = ['mushrooms','olives','green pepers','pepperoni','extra cheese']\nrequested_toppings = ['mushrooms','french frise','extra cheese']\nfor requested_topping in requested_toppings:\n    if requested_topping in available_topings:\n        print(\"Adding \" + requested_topping + '.')\n    else:\n        print(\"Sorry,we don't have \" + requested_topping + \".\")\nprint(\"\\nFinished making your pizza!\")",
+        "detail": "chapter5.5-4-3",
+        "documentation": {
+            "value": "\n```python\nfrom chapter5.5-4-3 import available_topings\n```\n\n```python\n\n\n```\n\n```python\navailable_topings = ['mushrooms','olives','green pepers','pepperoni','extra cheese']\nrequested_toppings = ['mushrooms','french frise','extra cheese']\nfor requested_topping in requested_toppings:\n    if requested_topping in available_topings:\n        print(\"Adding \" + requested_topping + '.')\n    else:\n        print(\"Sorry,we don't have \" + requested_topping + \".\")\nprint(\"\\nFinished making your pizza!\")\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "requested_toppings",
+        "kind": 5,
+        "importPath": "chapter5.5-4-3",
+        "description": "chapter5.5-4-3",
+        "peekOfCode": "requested_toppings = ['mushrooms','french frise','extra cheese']\nfor requested_topping in requested_toppings:\n    if requested_topping in available_topings:\n        print(\"Adding \" + requested_topping + '.')\n    else:\n        print(\"Sorry,we don't have \" + requested_topping + \".\")\nprint(\"\\nFinished making your pizza!\")",
+        "detail": "chapter5.5-4-3",
+        "documentation": {
+            "value": "\n```python\nfrom chapter5.5-4-3 import requested_toppings\n```\n\n```python\n\n\n```\n\n```python\nrequested_toppings = ['mushrooms','french frise','extra cheese']\nfor requested_topping in requested_toppings:\n    if requested_topping in available_topings:\n        print(\"Adding \" + requested_topping + '.')\n    else:\n        print(\"Sorry,we don't have \" + requested_topping + \".\")\nprint(\"\\nFinished making your pizza!\")\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "requested_oppings",
+        "kind": 5,
+        "importPath": "chapter5.5-4",
+        "description": "chapter5.5-4",
+        "peekOfCode": "requested_oppings = ['mushrooms','green peppers','extra cheese']\nfor requested_opping in requested_oppings:\n    print((\"Adding \" + requested_opping + \".\"))\nprint(\"\\nFinished making your pizza!\")\nfor requested_opping in requested_oppings:\n    if requested_opping == 'green peppers':\n        print(\"Sorry, we are out of green pepers right now\")\n    else:\n        print((\"Adding \" + requested_opping + \".\"))\nprint(\"\\nFinished making your pizza!\")",
+        "detail": "chapter5.5-4",
+        "documentation": {
+            "value": "\n```python\nfrom chapter5.5-4 import requested_oppings\n```\n\n```python\n\n\n```\n\n```python\nrequested_oppings = ['mushrooms','green peppers','extra cheese']\nfor requested_opping in requested_oppings:\n    print((\"Adding \" + requested_opping + \".\"))\nprint(\"\\nFinished making your pizza!\")\nfor requested_opping in requested_oppings:\n    if requested_opping == 'green peppers':\n        print(\"Sorry, we are out of green pepers right now\")\n    else:\n        print((\"Adding \" + requested_opping + \".\"))\nprint(\"\\nFinished making your pizza!\")\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "alien_color",
+        "kind": 5,
+        "importPath": "chapter5.exercise 5-4",
+        "description": "chapter5.exercise 5-4",
+        "peekOfCode": "alien_color = ['green', 'yellow', 'red']\nif 'green' in alien_color:\n    print(\"get 5\")\nelse:\n    print(\"get 10\")",
+        "detail": "chapter5.exercise 5-4",
+        "documentation": {
+            "value": "\n```python\nfrom chapter5.exercise 5-4 import alien_color\n```\n\n```python\n\n\n```\n\n```python\nalien_color = ['green', 'yellow', 'red']\nif 'green' in alien_color:\n    print(\"get 5\")\nelse:\n    print(\"get 10\")\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "current_users",
+        "kind": 5,
+        "importPath": "chapter5.exercise5-10",
+        "description": "chapter5.exercise5-10",
+        "peekOfCode": "current_users = ['YB','lhl','ZSH','YH','MY']\n#低效的方式：制作一个新的，完全大写的表\nall_upper_users = []\nfor cuser in current_users:\n    all_upper_users.append(cuser.upper());\nnew_users = ['Yb', 'LHL', 'ZSH', 'TMC', 'HXY']\n#然后再来碰一碰\nfor new_user in new_users:\n    if new_user.upper() in all_upper_users:\n        print(\"Please enter a different user name.\")",
+        "detail": "chapter5.exercise5-10",
+        "documentation": {
+            "value": "\n```python\nfrom chapter5.exercise5-10 import current_users\n```\n\n```python\n\n\n```\n\n```python\ncurrent_users = ['YB','lhl','ZSH','YH','MY']\n#低效的方式：制作一个新的，完全大写的表\nall_upper_users = []\nfor cuser in current_users:\n    all_upper_users.append(cuser.upper());\nnew_users = ['Yb', 'LHL', 'ZSH', 'TMC', 'HXY']\n#然后再来碰一碰\nfor new_user in new_users:\n    if new_user.upper() in all_upper_users:\n        print(\"Please enter a different user name.\")\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "all_upper_users",
+        "kind": 5,
+        "importPath": "chapter5.exercise5-10",
+        "description": "chapter5.exercise5-10",
+        "peekOfCode": "all_upper_users = []\nfor cuser in current_users:\n    all_upper_users.append(cuser.upper());\nnew_users = ['Yb', 'LHL', 'ZSH', 'TMC', 'HXY']\n#然后再来碰一碰\nfor new_user in new_users:\n    if new_user.upper() in all_upper_users:\n        print(\"Please enter a different user name.\")\n    else:\n        print(\"This user name is not used.\")",
+        "detail": "chapter5.exercise5-10",
+        "documentation": {
+            "value": "\n```python\nfrom chapter5.exercise5-10 import all_upper_users\n```\n\n```python\n\n\n```\n\n```python\nall_upper_users = []\nfor cuser in current_users:\n    all_upper_users.append(cuser.upper());\nnew_users = ['Yb', 'LHL', 'ZSH', 'TMC', 'HXY']\n#然后再来碰一碰\nfor new_user in new_users:\n    if new_user.upper() in all_upper_users:\n        print(\"Please enter a different user name.\")\n    else:\n        print(\"This user name is not used.\")\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "new_users",
+        "kind": 5,
+        "importPath": "chapter5.exercise5-10",
+        "description": "chapter5.exercise5-10",
+        "peekOfCode": "new_users = ['Yb', 'LHL', 'ZSH', 'TMC', 'HXY']\n#然后再来碰一碰\nfor new_user in new_users:\n    if new_user.upper() in all_upper_users:\n        print(\"Please enter a different user name.\")\n    else:\n        print(\"This user name is not used.\")",
+        "detail": "chapter5.exercise5-10",
+        "documentation": {
+            "value": "\n```python\nfrom chapter5.exercise5-10 import new_users\n```\n\n```python\n\n\n```\n\n```python\nnew_users = ['Yb', 'LHL', 'ZSH', 'TMC', 'HXY']\n#然后再来碰一碰\nfor new_user in new_users:\n    if new_user.upper() in all_upper_users:\n        print(\"Please enter a different user name.\")\n    else:\n        print(\"This user name is not used.\")\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Nums",
+        "kind": 5,
+        "importPath": "chapter5.exercise5-11",
+        "description": "chapter5.exercise5-11",
+        "peekOfCode": "Nums = [1,2,3,4,5,6,7,8,9]\nprint(Nums)\nfor num in Nums:\n    if num == 1:\n        print(str(num) + 'st')\n    elif num == 2:\n        print(str(num) + 'nd')\n    elif num == 3:\n        print(str(num) + 'rd')\n    else:",
+        "detail": "chapter5.exercise5-11",
+        "documentation": {
+            "value": "\n```python\nfrom chapter5.exercise5-11 import Nums\n```\n\n```python\n\n\n```\n\n```python\nNums = [1,2,3,4,5,6,7,8,9]\nprint(Nums)\nfor num in Nums:\n    if num == 1:\n        print(str(num) + 'st')\n    elif num == 2:\n        print(str(num) + 'nd')\n    elif num == 3:\n        print(str(num) + 'rd')\n    else:\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "alien_color",
+        "kind": 5,
+        "importPath": "chapter5.exercise5-3",
+        "description": "chapter5.exercise5-3",
+        "peekOfCode": "alien_color = ['green','yellow','red']\nif 'green' in alien_color:\n    print(\"get 5\")",
+        "detail": "chapter5.exercise5-3",
+        "documentation": {
+            "value": "\n```python\nfrom chapter5.exercise5-3 import alien_color\n```\n\n```python\n\n\n```\n\n```python\nalien_color = ['green','yellow','red']\nif 'green' in alien_color:\n    print(\"get 5\")\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "alien_color",
+        "kind": 5,
+        "importPath": "chapter5.exercise5-5",
+        "description": "chapter5.exercise5-5",
+        "peekOfCode": "alien_color = ['green', 'yellow', 'red']\nif 'green' in alien_color:\n    print(\"get 5\")\nelif 'yellow'  in alien_color:\n    print(\"get 10\")\nelif 'red' in alien_color:\n    print(\"get 15\")",
+        "detail": "chapter5.exercise5-5",
+        "documentation": {
+            "value": "\n```python\nfrom chapter5.exercise5-5 import alien_color\n```\n\n```python\n\n\n```\n\n```python\nalien_color = ['green', 'yellow', 'red']\nif 'green' in alien_color:\n    print(\"get 5\")\nelif 'yellow'  in alien_color:\n    print(\"get 10\")\nelif 'red' in alien_color:\n    print(\"get 15\")\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "chapter5.exercise5-6",
+        "description": "chapter5.exercise5-6",
+        "peekOfCode": "age = 10\nif age < 2:\n    print('baby')\nelif 2<=age<4:\n    print('study')\nelif 4<=age<13:\n    print('child')\nelif 13<=age<20:\n    print('teenager')",
+        "detail": "chapter5.exercise5-6",
+        "documentation": {
+            "value": "\n```python\nfrom chapter5.exercise5-6 import age\n```\n\n```python\n\n\n```\n\n```python\nage = 10\nif age < 2:\n    print('baby')\nelif 2<=age<4:\n    print('study')\nelif 4<=age<13:\n    print('child')\nelif 13<=age<20:\n    print('teenager')\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Names",
+        "kind": 5,
+        "importPath": "chapter5.exercise5-8",
+        "description": "chapter5.exercise5-8",
+        "peekOfCode": "Names = ['YB','ZSH','YH','admin','LHL']\nfor name in Names:\n    if name == 'admin':\n        print(\"Hello admin, woudle you like to see a status report?\")\n    else:\n        print(\"Hello Eric,thank you for logging in again\")",
+        "detail": "chapter5.exercise5-8",
+        "documentation": {
+            "value": "\n```python\nfrom chapter5.exercise5-8 import Names\n```\n\n```python\n\n\n```\n\n```python\nNames = ['YB','ZSH','YH','admin','LHL']\nfor name in Names:\n    if name == 'admin':\n        print(\"Hello admin, woudle you like to see a status report?\")\n    else:\n        print(\"Hello Eric,thank you for logging in again\")\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Names",
+        "kind": 5,
+        "importPath": "chapter5.exercise5-9",
+        "description": "chapter5.exercise5-9",
+        "peekOfCode": "Names = []\nif Names:\n    for name in Names:\n        if name == 'admin':\n            print(\"Hello admin, woudle you like to see a status report?\")\n        else:\n            print(\"Hello Eric,thank you for logging in again\")\nelse:\n    print(\"We need to find some users!\")",
+        "detail": "chapter5.exercise5-9",
+        "documentation": {
+            "value": "\n```python\nfrom chapter5.exercise5-9 import Names\n```\n\n```python\n\n\n```\n\n```python\nNames = []\nif Names:\n    for name in Names:\n        if name == 'admin':\n            print(\"Hello admin, woudle you like to see a status report?\")\n        else:\n            print(\"Hello Eric,thank you for logging in again\")\nelse:\n    print(\"We need to find some users!\")\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "alien_0",
+        "kind": 5,
+        "importPath": "chapter6.6-1",
+        "description": "chapter6.6-1",
+        "peekOfCode": "alien_0 = {'color':'green','points':5}\nprint(alien_0['color'])\nprint(alien_0['points'])",
+        "detail": "chapter6.6-1",
+        "documentation": {
+            "value": "\n```python\nfrom chapter6.6-1 import alien_0\n```\n\n```python\n\n\n```\n\n```python\nalien_0 = {'color':'green','points':5}\nprint(alien_0['color'])\nprint(alien_0['points'])\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "alien_0",
+        "kind": 5,
+        "importPath": "chapter6.6-2-2",
+        "description": "chapter6.6-2-2",
+        "peekOfCode": "alien_0 = {'color': 'green','points': 5}\nprint(alien_0)\nalien_0['x_points'] = 0\nalien_0['y_points'] = 25\nprint(alien_0)",
+        "detail": "chapter6.6-2-2",
+        "documentation": {
+            "value": "\n```python\nfrom chapter6.6-2-2 import alien_0\n```\n\n```python\n\n\n```\n\n```python\nalien_0 = {'color': 'green','points': 5}\nprint(alien_0)\nalien_0['x_points'] = 0\nalien_0['y_points'] = 25\nprint(alien_0)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "alien_0['x_points']",
+        "kind": 5,
+        "importPath": "chapter6.6-2-2",
+        "description": "chapter6.6-2-2",
+        "peekOfCode": "alien_0['x_points'] = 0\nalien_0['y_points'] = 25\nprint(alien_0)",
+        "detail": "chapter6.6-2-2",
+        "documentation": {
+            "value": "\n```python\nfrom chapter6.6-2-2 import alien_0['x_points']\n```\n\n```python\n\n\n```\n\n```python\nalien_0['x_points'] = 0\nalien_0['y_points'] = 25\nprint(alien_0)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "alien_0['y_points']",
+        "kind": 5,
+        "importPath": "chapter6.6-2-2",
+        "description": "chapter6.6-2-2",
+        "peekOfCode": "alien_0['y_points'] = 25\nprint(alien_0)",
+        "detail": "chapter6.6-2-2",
+        "documentation": {
+            "value": "\n```python\nfrom chapter6.6-2-2 import alien_0['y_points']\n```\n\n```python\n\n\n```\n\n```python\nalien_0['y_points'] = 25\nprint(alien_0)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "alien_0['color']",
+        "kind": 5,
+        "importPath": "chapter6.6-2-3",
+        "description": "chapter6.6-2-3",
+        "peekOfCode": "alien_0['color'] = 'green'\nalien_0['points'] = 5\nprint(alien_0)",
+        "detail": "chapter6.6-2-3",
+        "documentation": {
+            "value": "\n```python\nfrom chapter6.6-2-3 import alien_0['color']\n```\n\n```python\n\n\n```\n\n```python\nalien_0['color'] = 'green'\nalien_0['points'] = 5\nprint(alien_0)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "alien_0['points']",
+        "kind": 5,
+        "importPath": "chapter6.6-2-3",
+        "description": "chapter6.6-2-3",
+        "peekOfCode": "alien_0['points'] = 5\nprint(alien_0)",
+        "detail": "chapter6.6-2-3",
+        "documentation": {
+            "value": "\n```python\nfrom chapter6.6-2-3 import alien_0['points']\n```\n\n```python\n\n\n```\n\n```python\nalien_0['points'] = 5\nprint(alien_0)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "aline_0['x_position']",
+        "kind": 5,
+        "importPath": "chapter6.6-2-4-1",
+        "description": "chapter6.6-2-4-1",
+        "peekOfCode": "aline_0['x_position'] = aline_0['x_position'] + x_increment\nprint(\"New x-position: \" + str(aline_0['x_position']))",
+        "detail": "chapter6.6-2-4-1",
+        "documentation": {
+            "value": "\n```python\nfrom chapter6.6-2-4-1 import aline_0['x_position']\n```\n\n```python\n\n\n```\n\n```python\naline_0['x_position'] = aline_0['x_position'] + x_increment\nprint(\"New x-position: \" + str(aline_0['x_position']))\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "aline_0['color']",
+        "kind": 5,
+        "importPath": "chapter6.6-2-4",
+        "description": "chapter6.6-2-4",
+        "peekOfCode": "aline_0['color'] = 'red'\nprint('The alien is now ' + aline_0['color'])",
+        "detail": "chapter6.6-2-4",
+        "documentation": {
+            "value": "\n```python\nfrom chapter6.6-2-4 import aline_0['color']\n```\n\n```python\n\n\n```\n\n```python\naline_0['color'] = 'red'\nprint('The alien is now ' + aline_0['color'])\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "friends",
+        "kind": 5,
+        "importPath": "chapter6.6-2-6",
+        "description": "chapter6.6-2-6",
+        "peekOfCode": "friends = {'phil','sarah'}\nfor name in favorite_language.keys():\n    print(name.title())\n    if name in friends:\n        print(\" Hi \" + name.title() +\n        \", I see your favorite language is \"+\n        favorite_language[name].title())",
+        "detail": "chapter6.6-2-6",
+        "documentation": {
+            "value": "\n```python\nfrom chapter6.6-2-6 import friends\n```\n\n```python\n\n\n```\n\n```python\nfriends = {'phil','sarah'}\nfor name in favorite_language.keys():\n    print(name.title())\n    if name in friends:\n        print(\" Hi \" + name.title() +\n        \", I see your favorite language is \"+\n        favorite_language[name].title())\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "favorite_language",
+        "kind": 5,
+        "importPath": "chapter6.6-3-3",
+        "description": "chapter6.6-3-3",
+        "peekOfCode": "favorite_language = {\n    'jen': 'python',\n    'sarah': 'c',\n    'edward': 'ruby',\n    'phil': 'python',\n}\nfor name in sorted(favorite_language.keys()):\n    print(name.title() + \", thank you for taking the poll\")",
+        "detail": "chapter6.6-3-3",
+        "documentation": {
+            "value": "\n```python\nfrom chapter6.6-3-3 import favorite_language\n```\n\n```python\n\n\n```\n\n```python\nfavorite_language = {\n    'jen': 'python',\n    'sarah': 'c',\n    'edward': 'ruby',\n    'phil': 'python',\n}\nfor name in sorted(favorite_language.keys()):\n    print(name.title() + \", thank you for taking the poll\")\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "favorite_language",
+        "kind": 5,
+        "importPath": "chapter6.6-3-4",
+        "description": "chapter6.6-3-4",
+        "peekOfCode": "favorite_language = {\n    'jen': 'python',\n    'sarah': 'c',\n    'edward': 'ruby',\n    'phil': 'python',\n}\nprint(\"The following languages have been mentioned:\")\nfor language in favorite_language.values():\n    print(language.title())\nprint(\"\\n\")",
+        "detail": "chapter6.6-3-4",
+        "documentation": {
+            "value": "\n```python\nfrom chapter6.6-3-4 import favorite_language\n```\n\n```python\n\n\n```\n\n```python\nfavorite_language = {\n    'jen': 'python',\n    'sarah': 'c',\n    'edward': 'ruby',\n    'phil': 'python',\n}\nprint(\"The following languages have been mentioned:\")\nfor language in favorite_language.values():\n    print(language.title())\nprint(\"\\n\")\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "user",
+        "kind": 5,
+        "importPath": "chapter6.6-3",
+        "description": "chapter6.6-3",
+        "peekOfCode": "user = {\n    'username':'efermi',\n    'first':'enrico',\n    'last':'fermi'\n}\nfor key,value in user.items():\n    print(\"\\nKey: \" + key)\n    print(\"Value: \" + value)",
+        "detail": "chapter6.6-3",
+        "documentation": {
+            "value": "\n```python\nfrom chapter6.6-3 import user\n```\n\n```python\n\n\n```\n\n```python\nuser = {\n    'username':'efermi',\n    'first':'enrico',\n    'last':'fermi'\n}\nfor key,value in user.items():\n    print(\"\\nKey: \" + key)\n    print(\"Value: \" + value)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "aline_0",
+        "kind": 5,
+        "importPath": "chapter6.6-4-1",
+        "description": "chapter6.6-4-1",
+        "peekOfCode": "aline_0 = {'color':'green','points':5}\naline_1 = {'color':'yellow','points':10}\naline_2 = {'color':'red', 'points': 15}\nalines = [aline_0,aline_1,aline_2]\nfor aline in alines:\n    print(aline)",
+        "detail": "chapter6.6-4-1",
+        "documentation": {
+            "value": "\n```python\nfrom chapter6.6-4-1 import aline_0\n```\n\n```python\n\n\n```\n\n```python\naline_0 = {'color':'green','points':5}\naline_1 = {'color':'yellow','points':10}\naline_2 = {'color':'red', 'points': 15}\nalines = [aline_0,aline_1,aline_2]\nfor aline in alines:\n    print(aline)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "aline_1",
+        "kind": 5,
+        "importPath": "chapter6.6-4-1",
+        "description": "chapter6.6-4-1",
+        "peekOfCode": "aline_1 = {'color':'yellow','points':10}\naline_2 = {'color':'red', 'points': 15}\nalines = [aline_0,aline_1,aline_2]\nfor aline in alines:\n    print(aline)",
+        "detail": "chapter6.6-4-1",
+        "documentation": {
+            "value": "\n```python\nfrom chapter6.6-4-1 import aline_1\n```\n\n```python\n\n\n```\n\n```python\naline_1 = {'color':'yellow','points':10}\naline_2 = {'color':'red', 'points': 15}\nalines = [aline_0,aline_1,aline_2]\nfor aline in alines:\n    print(aline)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "aline_2",
+        "kind": 5,
+        "importPath": "chapter6.6-4-1",
+        "description": "chapter6.6-4-1",
+        "peekOfCode": "aline_2 = {'color':'red', 'points': 15}\nalines = [aline_0,aline_1,aline_2]\nfor aline in alines:\n    print(aline)",
+        "detail": "chapter6.6-4-1",
+        "documentation": {
+            "value": "\n```python\nfrom chapter6.6-4-1 import aline_2\n```\n\n```python\n\n\n```\n\n```python\naline_2 = {'color':'red', 'points': 15}\nalines = [aline_0,aline_1,aline_2]\nfor aline in alines:\n    print(aline)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "alines",
+        "kind": 5,
+        "importPath": "chapter6.6-4-1",
+        "description": "chapter6.6-4-1",
+        "peekOfCode": "alines = [aline_0,aline_1,aline_2]\nfor aline in alines:\n    print(aline)",
+        "detail": "chapter6.6-4-1",
+        "documentation": {
+            "value": "\n```python\nfrom chapter6.6-4-1 import alines\n```\n\n```python\n\n\n```\n\n```python\nalines = [aline_0,aline_1,aline_2]\nfor aline in alines:\n    print(aline)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "aliens",
+        "kind": 5,
+        "importPath": "chapter6.6-4-1plus",
+        "description": "chapter6.6-4-1plus",
+        "peekOfCode": "aliens = []\n#创建30个绿色的外星人\nfor alien_number in range(30):\n    new_alien = {'color':'green','points':5,'speed':'slow'}\n    aliens.append(new_alien)\nfor alien in aliens[0:3]:\n    if alien['color'] == 'green':\n        alien['color']='yellow'\n        alien['points']=10\n        alien['speed']='medium'",
+        "detail": "chapter6.6-4-1plus",
+        "documentation": {
+            "value": "\n```python\nfrom chapter6.6-4-1plus import aliens\n```\n\n```python\n\n\n```\n\n```python\naliens = []\n#创建30个绿色的外星人\nfor alien_number in range(30):\n    new_alien = {'color':'green','points':5,'speed':'slow'}\n    aliens.append(new_alien)\nfor alien in aliens[0:3]:\n    if alien['color'] == 'green':\n        alien['color']='yellow'\n        alien['points']=10\n        alien['speed']='medium'\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "pizza",
+        "kind": 5,
+        "importPath": "chapter6.6-4-2",
+        "description": "chapter6.6-4-2",
+        "peekOfCode": "pizza = {\n    'crust':'thick',\n    'toppings':['mushrooms','extra cheese']\n}\n#概述所点的披萨\nprint(\"You ordered a  \" + pizza['crust'] + \"-crust\" +\n        \"with the following toppings:\")\nfor topping in pizza['toppings']:\n    print(\"\\t\" + topping)",
+        "detail": "chapter6.6-4-2",
+        "documentation": {
+            "value": "\n```python\nfrom chapter6.6-4-2 import pizza\n```\n\n```python\n\n\n```\n\n```python\npizza = {\n    'crust':'thick',\n    'toppings':['mushrooms','extra cheese']\n}\n#概述所点的披萨\nprint(\"You ordered a  \" + pizza['crust'] + \"-crust\" +\n        \"with the following toppings:\")\nfor topping in pizza['toppings']:\n    print(\"\\t\" + topping)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "favorite_languages",
+        "kind": 5,
+        "importPath": "chapter6.6-4-2plus",
+        "description": "chapter6.6-4-2plus",
+        "peekOfCode": "favorite_languages = {\n    'jen': ['python','c'],\n    'sarah': ['c','ruby'],\n    'edward': ['ruby'],\n    'phil': ['python','c']\n}\nfor name,languages in favorite_languages.items():\n    if(len(languages)==1):        \n        print(\"\\n\" + name.title() + \"'s favorite language is\" + str(languages))\n    print(\"\\n\" + name.title() +\"'s favorite language are:\")",
+        "detail": "chapter6.6-4-2plus",
+        "documentation": {
+            "value": "\n```python\nfrom chapter6.6-4-2plus import favorite_languages\n```\n\n```python\n\n\n```\n\n```python\nfavorite_languages = {\n    'jen': ['python','c'],\n    'sarah': ['c','ruby'],\n    'edward': ['ruby'],\n    'phil': ['python','c']\n}\nfor name,languages in favorite_languages.items():\n    if(len(languages)==1):        \n        print(\"\\n\" + name.title() + \"'s favorite language is\" + str(languages))\n    print(\"\\n\" + name.title() +\"'s favorite language are:\")\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "users",
+        "kind": 5,
+        "importPath": "chapter6.6-4-3",
+        "description": "chapter6.6-4-3",
+        "peekOfCode": "users = {\n    'aeinstein':{\n        'first':'albert',\n        'last':'einstein',\n        'location':'princeton'\n    },\n    'murie':{\n        'first':'marie',\n        'last':'curie',\n        'location':'paris'",
+        "detail": "chapter6.6-4-3",
+        "documentation": {
+            "value": "\n```python\nfrom chapter6.6-4-3 import users\n```\n\n```python\n\n\n```\n\n```python\nusers = {\n    'aeinstein':{\n        'first':'albert',\n        'last':'einstein',\n        'location':'princeton'\n    },\n    'murie':{\n        'first':'marie',\n        'last':'curie',\n        'location':'paris'\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "YB",
+        "kind": 5,
+        "importPath": "chapter6.exercise6-1",
+        "description": "chapter6.exercise6-1",
+        "peekOfCode": "YB = {'first_name':'Y','last_name':'B','age':20,'city':'KunMing'}\nprint(YB)",
+        "detail": "chapter6.exercise6-1",
+        "documentation": {
+            "value": "\n```python\nfrom chapter6.exercise6-1 import YB\n```\n\n```python\n\n\n```\n\n```python\nYB = {'first_name':'Y','last_name':'B','age':20,'city':'KunMing'}\nprint(YB)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Age",
+        "kind": 5,
+        "importPath": "chapter6.exercise6-3",
+        "description": "chapter6.exercise6-3",
+        "peekOfCode": "Age = {'YB':20,'ZSH':20,'LHL':20}\nprint(\"YB: \" + str(Age['YB']))",
+        "detail": "chapter6.exercise6-3",
+        "documentation": {
+            "value": "\n```python\nfrom chapter6.exercise6-3 import Age\n```\n\n```python\n\n\n```\n\n```python\nAge = {'YB':20,'ZSH':20,'LHL':20}\nprint(\"YB: \" + str(Age['YB']))\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "favorite_language",
+        "kind": 5,
+        "importPath": "chapter6.exercise6-4",
+        "description": "chapter6.exercise6-4",
+        "peekOfCode": "favorite_language = {\n    'jen': 'python',\n    'sarah': 'c',\n    'edward': 'ruby',\n    'phil': 'python',\n}\nfor name,languang in favorite_language.items():\n    print(name.title() + ':' + languang.title())\nfavorite_language['YB'] = 'hhh'\nfavorite_language['YH'] = 'jjj'",
+        "detail": "chapter6.exercise6-4",
+        "documentation": {
+            "value": "\n```python\nfrom chapter6.exercise6-4 import favorite_language\n```\n\n```python\n\n\n```\n\n```python\nfavorite_language = {\n    'jen': 'python',\n    'sarah': 'c',\n    'edward': 'ruby',\n    'phil': 'python',\n}\nfor name,languang in favorite_language.items():\n    print(name.title() + ':' + languang.title())\nfavorite_language['YB'] = 'hhh'\nfavorite_language['YH'] = 'jjj'\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "favorite_language['YB']",
+        "kind": 5,
+        "importPath": "chapter6.exercise6-4",
+        "description": "chapter6.exercise6-4",
+        "peekOfCode": "favorite_language['YB'] = 'hhh'\nfavorite_language['YH'] = 'jjj'\nfor name, languang in favorite_language.items():\n    print(name.title() + ':' + languang.title())",
+        "detail": "chapter6.exercise6-4",
+        "documentation": {
+            "value": "\n```python\nfrom chapter6.exercise6-4 import favorite_language['YB']\n```\n\n```python\n\n\n```\n\n```python\nfavorite_language['YB'] = 'hhh'\nfavorite_language['YH'] = 'jjj'\nfor name, languang in favorite_language.items():\n    print(name.title() + ':' + languang.title())\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "favorite_language['YH']",
+        "kind": 5,
+        "importPath": "chapter6.exercise6-4",
+        "description": "chapter6.exercise6-4",
+        "peekOfCode": "favorite_language['YH'] = 'jjj'\nfor name, languang in favorite_language.items():\n    print(name.title() + ':' + languang.title())",
+        "detail": "chapter6.exercise6-4",
+        "documentation": {
+            "value": "\n```python\nfrom chapter6.exercise6-4 import favorite_language['YH']\n```\n\n```python\n\n\n```\n\n```python\nfavorite_language['YH'] = 'jjj'\nfor name, languang in favorite_language.items():\n    print(name.title() + ':' + languang.title())\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "rivers",
+        "kind": 5,
+        "importPath": "chapter6.exercise6-5",
+        "description": "chapter6.exercise6-5",
+        "peekOfCode": "rivers = {'nile':'egypt','Mekong':'china','amazon':'peru'}\nfor river,nation in rivers.items():\n    print(\"The \" + river.title() + \" runs through \" + nation.title())\nfor river in rivers.keys():\n    print(river.title())\nfor nation in rivers.values():\n    print(nation.title())",
+        "detail": "chapter6.exercise6-5",
+        "documentation": {
+            "value": "\n```python\nfrom chapter6.exercise6-5 import rivers\n```\n\n```python\n\n\n```\n\n```python\nrivers = {'nile':'egypt','Mekong':'china','amazon':'peru'}\nfor river,nation in rivers.items():\n    print(\"The \" + river.title() + \" runs through \" + nation.title())\nfor river in rivers.keys():\n    print(river.title())\nfor nation in rivers.values():\n    print(nation.title())\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "favorite_language",
+        "kind": 5,
+        "importPath": "chapter6.exercise6-6",
+        "description": "chapter6.exercise6-6",
+        "peekOfCode": "favorite_language = {\n    'jen': 'python',\n    'sarah': 'c',\n    'edward': 'ruby',\n    'phil': 'python',\n}\nnames = {'jen': 'python','sarah': 'c'}\nfor name in favorite_language.keys():\n    if name in names.keys():\n        print(\"Thank you for your participation\")",
+        "detail": "chapter6.exercise6-6",
+        "documentation": {
+            "value": "\n```python\nfrom chapter6.exercise6-6 import favorite_language\n```\n\n```python\n\n\n```\n\n```python\nfavorite_language = {\n    'jen': 'python',\n    'sarah': 'c',\n    'edward': 'ruby',\n    'phil': 'python',\n}\nnames = {'jen': 'python','sarah': 'c'}\nfor name in favorite_language.keys():\n    if name in names.keys():\n        print(\"Thank you for your participation\")\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "names",
+        "kind": 5,
+        "importPath": "chapter6.exercise6-6",
+        "description": "chapter6.exercise6-6",
+        "peekOfCode": "names = {'jen': 'python','sarah': 'c'}\nfor name in favorite_language.keys():\n    if name in names.keys():\n        print(\"Thank you for your participation\")\n    else:\n        print(\"Please take the investigation\")",
+        "detail": "chapter6.exercise6-6",
+        "documentation": {
+            "value": "\n```python\nfrom chapter6.exercise6-6 import names\n```\n\n```python\n\n\n```\n\n```python\nnames = {'jen': 'python','sarah': 'c'}\nfor name in favorite_language.keys():\n    if name in names.keys():\n        print(\"Thank you for your participation\")\n    else:\n        print(\"Please take the investigation\")\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "persons",
+        "kind": 5,
+        "importPath": "chapter6.exercise6-7",
+        "description": "chapter6.exercise6-7",
+        "peekOfCode": "persons = {\n    'YB' : {\n        'age':20,\n        'sex':'man'\n    },\n    'HH':{\n        'age':20,\n        'sex':'man'\n    }\n}",
+        "detail": "chapter6.exercise6-7",
+        "documentation": {
+            "value": "\n```python\nfrom chapter6.exercise6-7 import persons\n```\n\n```python\n\n\n```\n\n```python\npersons = {\n    'YB' : {\n        'age':20,\n        'sex':'man'\n    },\n    'HH':{\n        'age':20,\n        'sex':'man'\n    }\n}\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "pets",
+        "kind": 5,
+        "importPath": "chapter6.exercise6-8",
+        "description": "chapter6.exercise6-8",
+        "peekOfCode": "pets = {\n    'pet1':{\n        'master':'YB',\n        'kind':'dog'\n    },\n    'pet2':{\n        'master':'HH',\n        'kind':'cat'\n    }\n}",
+        "detail": "chapter6.exercise6-8",
+        "documentation": {
+            "value": "\n```python\nfrom chapter6.exercise6-8 import pets\n```\n\n```python\n\n\n```\n\n```python\npets = {\n    'pet1':{\n        'master':'YB',\n        'kind':'dog'\n    },\n    'pet2':{\n        'master':'HH',\n        'kind':'cat'\n    }\n}\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Name",
+        "kind": 5,
+        "importPath": "day00.2-3",
+        "description": "day00.2-3",
+        "peekOfCode": "Name = \"Eric\"\nprint(\"\\\"Hello\" + Name + \",would you like to learn some Python today?\\\"\")",
+        "detail": "day00.2-3",
+        "documentation": {
+            "value": "\n```python\nfrom day00.2-3 import Name\n```\n\n```python\n\n\n```\n\n```python\nName = \"Eric\"\nprint(\"\\\"Hello\" + Name + \",would you like to learn some Python today?\\\"\")\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Name",
+        "kind": 5,
+        "importPath": "day00.2-4",
+        "description": "day00.2-4",
+        "peekOfCode": "Name = \"yu bo\"\nName1 = Name.lower()\nName2 = Name.upper()\nName3 = Name.title()\nprint(Name1)\nprint(Name2)\nprint(Name3)",
+        "detail": "day00.2-4",
+        "documentation": {
+            "value": "\n```python\nfrom day00.2-4 import Name\n```\n\n```python\n\n\n```\n\n```python\nName = \"yu bo\"\nName1 = Name.lower()\nName2 = Name.upper()\nName3 = Name.title()\nprint(Name1)\nprint(Name2)\nprint(Name3)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Name1",
+        "kind": 5,
+        "importPath": "day00.2-4",
+        "description": "day00.2-4",
+        "peekOfCode": "Name1 = Name.lower()\nName2 = Name.upper()\nName3 = Name.title()\nprint(Name1)\nprint(Name2)\nprint(Name3)",
+        "detail": "day00.2-4",
+        "documentation": {
+            "value": "\n```python\nfrom day00.2-4 import Name1\n```\n\n```python\n\n\n```\n\n```python\nName1 = Name.lower()\nName2 = Name.upper()\nName3 = Name.title()\nprint(Name1)\nprint(Name2)\nprint(Name3)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Name2",
+        "kind": 5,
+        "importPath": "day00.2-4",
+        "description": "day00.2-4",
+        "peekOfCode": "Name2 = Name.upper()\nName3 = Name.title()\nprint(Name1)\nprint(Name2)\nprint(Name3)",
+        "detail": "day00.2-4",
+        "documentation": {
+            "value": "\n```python\nfrom day00.2-4 import Name2\n```\n\n```python\n\n\n```\n\n```python\nName2 = Name.upper()\nName3 = Name.title()\nprint(Name1)\nprint(Name2)\nprint(Name3)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Name3",
+        "kind": 5,
+        "importPath": "day00.2-4",
+        "description": "day00.2-4",
+        "peekOfCode": "Name3 = Name.title()\nprint(Name1)\nprint(Name2)\nprint(Name3)",
+        "detail": "day00.2-4",
+        "documentation": {
+            "value": "\n```python\nfrom day00.2-4 import Name3\n```\n\n```python\n\n\n```\n\n```python\nName3 = Name.title()\nprint(Name1)\nprint(Name2)\nprint(Name3)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "day00.2-5",
+        "description": "day00.2-5",
+        "peekOfCode": "name = \"YB\"\nmessage = name + \" once said, \\\"A person who never made a mistake never tried anything new.\\\"\"\nprint(name + \" \" + \"once said, \\\"A person who never made a mistake never tried anything new.\\\"\")\nprint(message)",
+        "detail": "day00.2-5",
+        "documentation": {
+            "value": "\n```python\nfrom day00.2-5 import name\n```\n\n```python\n\n\n```\n\n```python\nname = \"YB\"\nmessage = name + \" once said, \\\"A person who never made a mistake never tried anything new.\\\"\"\nprint(name + \" \" + \"once said, \\\"A person who never made a mistake never tried anything new.\\\"\")\nprint(message)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "message",
+        "kind": 5,
+        "importPath": "day00.2-5",
+        "description": "day00.2-5",
+        "peekOfCode": "message = name + \" once said, \\\"A person who never made a mistake never tried anything new.\\\"\"\nprint(name + \" \" + \"once said, \\\"A person who never made a mistake never tried anything new.\\\"\")\nprint(message)",
+        "detail": "day00.2-5",
+        "documentation": {
+            "value": "\n```python\nfrom day00.2-5 import message\n```\n\n```python\n\n\n```\n\n```python\nmessage = name + \" once said, \\\"A person who never made a mistake never tried anything new.\\\"\"\nprint(name + \" \" + \"once said, \\\"A person who never made a mistake never tried anything new.\\\"\")\nprint(message)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "famous_person",
+        "kind": 5,
+        "importPath": "day00.2-6",
+        "description": "day00.2-6",
+        "peekOfCode": "famous_person = \"YB\"\nmessage = \"A person who never made a mistake never tried anything new.\"\nprint(famous_person + \" \" + \"once said, \" + \"\\\"\" + message + \"\\\"\")",
+        "detail": "day00.2-6",
+        "documentation": {
+            "value": "\n```python\nfrom day00.2-6 import famous_person\n```\n\n```python\n\n\n```\n\n```python\nfamous_person = \"YB\"\nmessage = \"A person who never made a mistake never tried anything new.\"\nprint(famous_person + \" \" + \"once said, \" + \"\\\"\" + message + \"\\\"\")\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "message",
+        "kind": 5,
+        "importPath": "day00.2-6",
+        "description": "day00.2-6",
+        "peekOfCode": "message = \"A person who never made a mistake never tried anything new.\"\nprint(famous_person + \" \" + \"once said, \" + \"\\\"\" + message + \"\\\"\")",
+        "detail": "day00.2-6",
+        "documentation": {
+            "value": "\n```python\nfrom day00.2-6 import message\n```\n\n```python\n\n\n```\n\n```python\nmessage = \"A person who never made a mistake never tried anything new.\"\nprint(famous_person + \" \" + \"once said, \" + \"\\\"\" + message + \"\\\"\")\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "day00.2-7",
+        "description": "day00.2-7",
+        "peekOfCode": "name = \"\\n\\t yubo \\n \\n\\t\"\nname1 = name.lstrip()\nname2 = name.rstrip()\nname3 = name.strip()\nprint(name)\nprint(name1)\nprint(name2)\nprint(name3)",
+        "detail": "day00.2-7",
+        "documentation": {
+            "value": "\n```python\nfrom day00.2-7 import name\n```\n\n```python\n\n\n```\n\n```python\nname = \"\\n\\t yubo \\n \\n\\t\"\nname1 = name.lstrip()\nname2 = name.rstrip()\nname3 = name.strip()\nprint(name)\nprint(name1)\nprint(name2)\nprint(name3)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "name1",
+        "kind": 5,
+        "importPath": "day00.2-7",
+        "description": "day00.2-7",
+        "peekOfCode": "name1 = name.lstrip()\nname2 = name.rstrip()\nname3 = name.strip()\nprint(name)\nprint(name1)\nprint(name2)\nprint(name3)",
+        "detail": "day00.2-7",
+        "documentation": {
+            "value": "\n```python\nfrom day00.2-7 import name1\n```\n\n```python\n\n\n```\n\n```python\nname1 = name.lstrip()\nname2 = name.rstrip()\nname3 = name.strip()\nprint(name)\nprint(name1)\nprint(name2)\nprint(name3)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "name2",
+        "kind": 5,
+        "importPath": "day00.2-7",
+        "description": "day00.2-7",
+        "peekOfCode": "name2 = name.rstrip()\nname3 = name.strip()\nprint(name)\nprint(name1)\nprint(name2)\nprint(name3)",
+        "detail": "day00.2-7",
+        "documentation": {
+            "value": "\n```python\nfrom day00.2-7 import name2\n```\n\n```python\n\n\n```\n\n```python\nname2 = name.rstrip()\nname3 = name.strip()\nprint(name)\nprint(name1)\nprint(name2)\nprint(name3)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "name3",
+        "kind": 5,
+        "importPath": "day00.2-7",
+        "description": "day00.2-7",
+        "peekOfCode": "name3 = name.strip()\nprint(name)\nprint(name1)\nprint(name2)\nprint(name3)",
+        "detail": "day00.2-7",
+        "documentation": {
+            "value": "\n```python\nfrom day00.2-7 import name3\n```\n\n```python\n\n\n```\n\n```python\nname3 = name.strip()\nprint(name)\nprint(name1)\nprint(name2)\nprint(name3)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "day00.235",
+        "description": "day00.235",
+        "peekOfCode": "a = \"WWW\"\nb = 'WWW'\nlrc = \"I've let you down\"\nprint(lrc)\nsen = \"Jack : \\\"You jump I jump\\\"\"\nsen2 = 'Jack : \"You jump I jump\"'\nprint(sen)\nprint(sen2)",
+        "detail": "day00.235",
+        "documentation": {
+            "value": "\n```python\nfrom day00.235 import a\n```\n\n```python\n\n\n```\n\n```python\na = \"WWW\"\nb = 'WWW'\nlrc = \"I've let you down\"\nprint(lrc)\nsen = \"Jack : \\\"You jump I jump\\\"\"\nsen2 = 'Jack : \"You jump I jump\"'\nprint(sen)\nprint(sen2)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "day00.235",
+        "description": "day00.235",
+        "peekOfCode": "b = 'WWW'\nlrc = \"I've let you down\"\nprint(lrc)\nsen = \"Jack : \\\"You jump I jump\\\"\"\nsen2 = 'Jack : \"You jump I jump\"'\nprint(sen)\nprint(sen2)",
+        "detail": "day00.235",
+        "documentation": {
+            "value": "\n```python\nfrom day00.235 import b\n```\n\n```python\n\n\n```\n\n```python\nb = 'WWW'\nlrc = \"I've let you down\"\nprint(lrc)\nsen = \"Jack : \\\"You jump I jump\\\"\"\nsen2 = 'Jack : \"You jump I jump\"'\nprint(sen)\nprint(sen2)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "lrc",
+        "kind": 5,
+        "importPath": "day00.235",
+        "description": "day00.235",
+        "peekOfCode": "lrc = \"I've let you down\"\nprint(lrc)\nsen = \"Jack : \\\"You jump I jump\\\"\"\nsen2 = 'Jack : \"You jump I jump\"'\nprint(sen)\nprint(sen2)",
+        "detail": "day00.235",
+        "documentation": {
+            "value": "\n```python\nfrom day00.235 import lrc\n```\n\n```python\n\n\n```\n\n```python\nlrc = \"I've let you down\"\nprint(lrc)\nsen = \"Jack : \\\"You jump I jump\\\"\"\nsen2 = 'Jack : \"You jump I jump\"'\nprint(sen)\nprint(sen2)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "sen",
+        "kind": 5,
+        "importPath": "day00.235",
+        "description": "day00.235",
+        "peekOfCode": "sen = \"Jack : \\\"You jump I jump\\\"\"\nsen2 = 'Jack : \"You jump I jump\"'\nprint(sen)\nprint(sen2)",
+        "detail": "day00.235",
+        "documentation": {
+            "value": "\n```python\nfrom day00.235 import sen\n```\n\n```python\n\n\n```\n\n```python\nsen = \"Jack : \\\"You jump I jump\\\"\"\nsen2 = 'Jack : \"You jump I jump\"'\nprint(sen)\nprint(sen2)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "sen2",
+        "kind": 5,
+        "importPath": "day00.235",
+        "description": "day00.235",
+        "peekOfCode": "sen2 = 'Jack : \"You jump I jump\"'\nprint(sen)\nprint(sen2)",
+        "detail": "day00.235",
+        "documentation": {
+            "value": "\n```python\nfrom day00.235 import sen2\n```\n\n```python\n\n\n```\n\n```python\nsen2 = 'Jack : \"You jump I jump\"'\nprint(sen)\nprint(sen2)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "day00.str",
+        "description": "day00.str",
+        "peekOfCode": "a = \"This is String\"\nb = a.lower()\nc = b.upper()\nd = a + \" \" + b\ne = b.title()\nprint(a)\nprint(b)\nprint(c)\nprint(d)\nprint(e)",
+        "detail": "day00.str",
+        "documentation": {
+            "value": "\n```python\nfrom day00.str import a\n```\n\n```python\n\n\n```\n\n```python\na = \"This is String\"\nb = a.lower()\nc = b.upper()\nd = a + \" \" + b\ne = b.title()\nprint(a)\nprint(b)\nprint(c)\nprint(d)\nprint(e)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "day00.str",
+        "description": "day00.str",
+        "peekOfCode": "b = a.lower()\nc = b.upper()\nd = a + \" \" + b\ne = b.title()\nprint(a)\nprint(b)\nprint(c)\nprint(d)\nprint(e)\n# 2.3.3",
+        "detail": "day00.str",
+        "documentation": {
+            "value": "\n```python\nfrom day00.str import b\n```\n\n```python\n\n\n```\n\n```python\nb = a.lower()\nc = b.upper()\nd = a + \" \" + b\ne = b.title()\nprint(a)\nprint(b)\nprint(c)\nprint(d)\nprint(e)\n# 2.3.3\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "day00.str",
+        "description": "day00.str",
+        "peekOfCode": "c = b.upper()\nd = a + \" \" + b\ne = b.title()\nprint(a)\nprint(b)\nprint(c)\nprint(d)\nprint(e)\n# 2.3.3\n# \\n ",
+        "detail": "day00.str",
+        "documentation": {
+            "value": "\n```python\nfrom day00.str import c\n```\n\n```python\n\n\n```\n\n```python\nc = b.upper()\nd = a + \" \" + b\ne = b.title()\nprint(a)\nprint(b)\nprint(c)\nprint(d)\nprint(e)\n# 2.3.3\n# \\n \n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "day00.str",
+        "description": "day00.str",
+        "peekOfCode": "d = a + \" \" + b\ne = b.title()\nprint(a)\nprint(b)\nprint(c)\nprint(d)\nprint(e)\n# 2.3.3\n# \\n \n# \\t",
+        "detail": "day00.str",
+        "documentation": {
+            "value": "\n```python\nfrom day00.str import d\n```\n\n```python\n\n\n```\n\n```python\nd = a + \" \" + b\ne = b.title()\nprint(a)\nprint(b)\nprint(c)\nprint(d)\nprint(e)\n# 2.3.3\n# \\n \n# \\t\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "e",
+        "kind": 5,
+        "importPath": "day00.str",
+        "description": "day00.str",
+        "peekOfCode": "e = b.title()\nprint(a)\nprint(b)\nprint(c)\nprint(d)\nprint(e)\n# 2.3.3\n# \\n \n# \\t\nprint(\"\\nX\\nX\\nX\")",
+        "detail": "day00.str",
+        "documentation": {
+            "value": "\n```python\nfrom day00.str import e\n```\n\n```python\n\n\n```\n\n```python\ne = b.title()\nprint(a)\nprint(b)\nprint(c)\nprint(d)\nprint(e)\n# 2.3.3\n# \\n \n# \\t\nprint(\"\\nX\\nX\\nX\")\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "day00.str",
+        "description": "day00.str",
+        "peekOfCode": "a = \"  章北海  \"\nb = a.rstrip()\nc = a.lstrip()\nd = a.strip()\nprint(b)\nprint(c)\nprint(d)\n#",
+        "detail": "day00.str",
+        "documentation": {
+            "value": "\n```python\nfrom day00.str import a\n```\n\n```python\n\n\n```\n\n```python\na = \"  章北海  \"\nb = a.rstrip()\nc = a.lstrip()\nd = a.strip()\nprint(b)\nprint(c)\nprint(d)\n#\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "day00.str",
+        "description": "day00.str",
+        "peekOfCode": "b = a.rstrip()\nc = a.lstrip()\nd = a.strip()\nprint(b)\nprint(c)\nprint(d)\n#",
+        "detail": "day00.str",
+        "documentation": {
+            "value": "\n```python\nfrom day00.str import b\n```\n\n```python\n\n\n```\n\n```python\nb = a.rstrip()\nc = a.lstrip()\nd = a.strip()\nprint(b)\nprint(c)\nprint(d)\n#\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "day00.str",
+        "description": "day00.str",
+        "peekOfCode": "c = a.lstrip()\nd = a.strip()\nprint(b)\nprint(c)\nprint(d)\n#",
+        "detail": "day00.str",
+        "documentation": {
+            "value": "\n```python\nfrom day00.str import c\n```\n\n```python\n\n\n```\n\n```python\nc = a.lstrip()\nd = a.strip()\nprint(b)\nprint(c)\nprint(d)\n#\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "day00.str",
+        "description": "day00.str",
+        "peekOfCode": "d = a.strip()\nprint(b)\nprint(c)\nprint(d)\n#",
+        "detail": "day00.str",
+        "documentation": {
+            "value": "\n```python\nfrom day00.str import d\n```\n\n```python\n\n\n```\n\n```python\nd = a.strip()\nprint(b)\nprint(c)\nprint(d)\n#\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "day00.var",
+        "description": "day00.var",
+        "peekOfCode": "a = 0\nb = \"Hello Var\"\nc = 0.0 \nprint(a)\nprint(b)\nprint(c)",
+        "detail": "day00.var",
+        "documentation": {
+            "value": "\n```python\nfrom day00.var import a\n```\n\n```python\n\n\n```\n\n```python\na = 0\nb = \"Hello Var\"\nc = 0.0 \nprint(a)\nprint(b)\nprint(c)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "day00.var",
+        "description": "day00.var",
+        "peekOfCode": "b = \"Hello Var\"\nc = 0.0 \nprint(a)\nprint(b)\nprint(c)",
+        "detail": "day00.var",
+        "documentation": {
+            "value": "\n```python\nfrom day00.var import b\n```\n\n```python\n\n\n```\n\n```python\nb = \"Hello Var\"\nc = 0.0 \nprint(a)\nprint(b)\nprint(c)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "day00.var",
+        "description": "day00.var",
+        "peekOfCode": "c = 0.0 \nprint(a)\nprint(b)\nprint(c)",
+        "detail": "day00.var",
+        "documentation": {
+            "value": "\n```python\nfrom day00.var import c\n```\n\n```python\n\n\n```\n\n```python\nc = 0.0 \nprint(a)\nprint(b)\nprint(c)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "day01.2-10",
+        "description": "day01.2-10",
+        "peekOfCode": "x = 414\nmsg = \"My favourite number is \" + str(x)\nprint(msg)",
+        "detail": "day01.2-10",
+        "documentation": {
+            "value": "\n```python\nfrom day01.2-10 import x\n```\n\n```python\n\n\n```\n\n```python\nx = 414\nmsg = \"My favourite number is \" + str(x)\nprint(msg)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "msg",
+        "kind": 5,
+        "importPath": "day01.2-10",
+        "description": "day01.2-10",
+        "peekOfCode": "msg = \"My favourite number is \" + str(x)\nprint(msg)",
+        "detail": "day01.2-10",
+        "documentation": {
+            "value": "\n```python\nfrom day01.2-10 import msg\n```\n\n```python\n\n\n```\n\n```python\nmsg = \"My favourite number is \" + str(x)\nprint(msg)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "day01.2-9",
+        "description": "day01.2-9",
+        "peekOfCode": "x = 414\nmsg = \"My favourite number is\" + str(x)\nprint(x)",
+        "detail": "day01.2-9",
+        "documentation": {
+            "value": "\n```python\nfrom day01.2-9 import x\n```\n\n```python\n\n\n```\n\n```python\nx = 414\nmsg = \"My favourite number is\" + str(x)\nprint(x)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "msg",
+        "kind": 5,
+        "importPath": "day01.2-9",
+        "description": "day01.2-9",
+        "peekOfCode": "msg = \"My favourite number is\" + str(x)\nprint(x)",
+        "detail": "day01.2-9",
+        "documentation": {
+            "value": "\n```python\nfrom day01.2-9 import msg\n```\n\n```python\n\n\n```\n\n```python\nmsg = \"My favourite number is\" + str(x)\nprint(x)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "day01.241",
+        "description": "day01.241",
+        "peekOfCode": "x = 0\ny = x + 1\ny = y * 2\nz = x + y\ndelta = y - x\nd = y / (x + 1)\nc = 2 ** 2\nprint(y)\nprint(delta)\nprint(z)",
+        "detail": "day01.241",
+        "documentation": {
+            "value": "\n```python\nfrom day01.241 import x\n```\n\n```python\n\n\n```\n\n```python\nx = 0\ny = x + 1\ny = y * 2\nz = x + y\ndelta = y - x\nd = y / (x + 1)\nc = 2 ** 2\nprint(y)\nprint(delta)\nprint(z)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "day01.241",
+        "description": "day01.241",
+        "peekOfCode": "y = x + 1\ny = y * 2\nz = x + y\ndelta = y - x\nd = y / (x + 1)\nc = 2 ** 2\nprint(y)\nprint(delta)\nprint(z)\nprint(d)",
+        "detail": "day01.241",
+        "documentation": {
+            "value": "\n```python\nfrom day01.241 import y\n```\n\n```python\n\n\n```\n\n```python\ny = x + 1\ny = y * 2\nz = x + y\ndelta = y - x\nd = y / (x + 1)\nc = 2 ** 2\nprint(y)\nprint(delta)\nprint(z)\nprint(d)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "day01.241",
+        "description": "day01.241",
+        "peekOfCode": "y = y * 2\nz = x + y\ndelta = y - x\nd = y / (x + 1)\nc = 2 ** 2\nprint(y)\nprint(delta)\nprint(z)\nprint(d)\nprint(c)",
+        "detail": "day01.241",
+        "documentation": {
+            "value": "\n```python\nfrom day01.241 import y\n```\n\n```python\n\n\n```\n\n```python\ny = y * 2\nz = x + y\ndelta = y - x\nd = y / (x + 1)\nc = 2 ** 2\nprint(y)\nprint(delta)\nprint(z)\nprint(d)\nprint(c)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "day01.241",
+        "description": "day01.241",
+        "peekOfCode": "z = x + y\ndelta = y - x\nd = y / (x + 1)\nc = 2 ** 2\nprint(y)\nprint(delta)\nprint(z)\nprint(d)\nprint(c)",
+        "detail": "day01.241",
+        "documentation": {
+            "value": "\n```python\nfrom day01.241 import z\n```\n\n```python\n\n\n```\n\n```python\nz = x + y\ndelta = y - x\nd = y / (x + 1)\nc = 2 ** 2\nprint(y)\nprint(delta)\nprint(z)\nprint(d)\nprint(c)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "delta",
+        "kind": 5,
+        "importPath": "day01.241",
+        "description": "day01.241",
+        "peekOfCode": "delta = y - x\nd = y / (x + 1)\nc = 2 ** 2\nprint(y)\nprint(delta)\nprint(z)\nprint(d)\nprint(c)",
+        "detail": "day01.241",
+        "documentation": {
+            "value": "\n```python\nfrom day01.241 import delta\n```\n\n```python\n\n\n```\n\n```python\ndelta = y - x\nd = y / (x + 1)\nc = 2 ** 2\nprint(y)\nprint(delta)\nprint(z)\nprint(d)\nprint(c)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "day01.241",
+        "description": "day01.241",
+        "peekOfCode": "d = y / (x + 1)\nc = 2 ** 2\nprint(y)\nprint(delta)\nprint(z)\nprint(d)\nprint(c)",
+        "detail": "day01.241",
+        "documentation": {
+            "value": "\n```python\nfrom day01.241 import d\n```\n\n```python\n\n\n```\n\n```python\nd = y / (x + 1)\nc = 2 ** 2\nprint(y)\nprint(delta)\nprint(z)\nprint(d)\nprint(c)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "day01.241",
+        "description": "day01.241",
+        "peekOfCode": "c = 2 ** 2\nprint(y)\nprint(delta)\nprint(z)\nprint(d)\nprint(c)",
+        "detail": "day01.241",
+        "documentation": {
+            "value": "\n```python\nfrom day01.241 import c\n```\n\n```python\n\n\n```\n\n```python\nc = 2 ** 2\nprint(y)\nprint(delta)\nprint(z)\nprint(d)\nprint(c)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "day01.242",
+        "description": "day01.242",
+        "peekOfCode": "x = 2.0 + 2.0\ny = 2.0 * 3.0\nz = 3 / 2 \nd = 0.2 + 0.1\nprint(z)\nprint(y)\nprint(d)",
+        "detail": "day01.242",
+        "documentation": {
+            "value": "\n```python\nfrom day01.242 import x\n```\n\n```python\n\n\n```\n\n```python\nx = 2.0 + 2.0\ny = 2.0 * 3.0\nz = 3 / 2 \nd = 0.2 + 0.1\nprint(z)\nprint(y)\nprint(d)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "day01.242",
+        "description": "day01.242",
+        "peekOfCode": "y = 2.0 * 3.0\nz = 3 / 2 \nd = 0.2 + 0.1\nprint(z)\nprint(y)\nprint(d)",
+        "detail": "day01.242",
+        "documentation": {
+            "value": "\n```python\nfrom day01.242 import y\n```\n\n```python\n\n\n```\n\n```python\ny = 2.0 * 3.0\nz = 3 / 2 \nd = 0.2 + 0.1\nprint(z)\nprint(y)\nprint(d)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "day01.242",
+        "description": "day01.242",
+        "peekOfCode": "z = 3 / 2 \nd = 0.2 + 0.1\nprint(z)\nprint(y)\nprint(d)",
+        "detail": "day01.242",
+        "documentation": {
+            "value": "\n```python\nfrom day01.242 import z\n```\n\n```python\n\n\n```\n\n```python\nz = 3 / 2 \nd = 0.2 + 0.1\nprint(z)\nprint(y)\nprint(d)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "day01.242",
+        "description": "day01.242",
+        "peekOfCode": "d = 0.2 + 0.1\nprint(z)\nprint(y)\nprint(d)",
+        "detail": "day01.242",
+        "documentation": {
+            "value": "\n```python\nfrom day01.242 import d\n```\n\n```python\n\n\n```\n\n```python\nd = 0.2 + 0.1\nprint(z)\nprint(y)\nprint(d)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "day01.243",
+        "description": "day01.243",
+        "peekOfCode": "x = 111\nmsg = \"x = \" + str(x) \nprint(msg)",
+        "detail": "day01.243",
+        "documentation": {
+            "value": "\n```python\nfrom day01.243 import x\n```\n\n```python\n\n\n```\n\n```python\nx = 111\nmsg = \"x = \" + str(x) \nprint(msg)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "msg",
+        "kind": 5,
+        "importPath": "day01.243",
+        "description": "day01.243",
+        "peekOfCode": "msg = \"x = \" + str(x) \nprint(msg)",
+        "detail": "day01.243",
+        "documentation": {
+            "value": "\n```python\nfrom day01.243 import msg\n```\n\n```python\n\n\n```\n\n```python\nmsg = \"x = \" + str(x) \nprint(msg)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "students",
+        "kind": 5,
+        "importPath": "day01.310",
+        "description": "day01.310",
+        "peekOfCode": "students = [ 'Yu Bo' , 'LHL']\nprint(students)\ntmp = students[0]\nprint(tmp.lower().upper())",
+        "detail": "day01.310",
+        "documentation": {
+            "value": "\n```python\nfrom day01.310 import students\n```\n\n```python\n\n\n```\n\n```python\nstudents = [ 'Yu Bo' , 'LHL']\nprint(students)\ntmp = students[0]\nprint(tmp.lower().upper())\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "tmp",
+        "kind": 5,
+        "importPath": "day01.310",
+        "description": "day01.310",
+        "peekOfCode": "tmp = students[0]\nprint(tmp.lower().upper())",
+        "detail": "day01.310",
+        "documentation": {
+            "value": "\n```python\nfrom day01.310 import tmp\n```\n\n```python\n\n\n```\n\n```python\ntmp = students[0]\nprint(tmp.lower().upper())\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "nums",
+        "kind": 5,
+        "importPath": "day01.321",
+        "description": "day01.321",
+        "peekOfCode": "nums = [1,2,3,4,5,6,7,1,1]\nnums[-2] = 44\nprint(nums)\n#添加\nnums.append(55)\nprint(nums)\n#插入\nnums.insert(5, 7 ** 7)\nprint(nums)\n#删除",
+        "detail": "day01.321",
+        "documentation": {
+            "value": "\n```python\nfrom day01.321 import nums\n```\n\n```python\n\n\n```\n\n```python\nnums = [1,2,3,4,5,6,7,1,1]\nnums[-2] = 44\nprint(nums)\n#添加\nnums.append(55)\nprint(nums)\n#插入\nnums.insert(5, 7 ** 7)\nprint(nums)\n#删除\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "nums[-2]",
+        "kind": 5,
+        "importPath": "day01.321",
+        "description": "day01.321",
+        "peekOfCode": "nums[-2] = 44\nprint(nums)\n#添加\nnums.append(55)\nprint(nums)\n#插入\nnums.insert(5, 7 ** 7)\nprint(nums)\n#删除\ndel nums[5]",
+        "detail": "day01.321",
+        "documentation": {
+            "value": "\n```python\nfrom day01.321 import nums[-2]\n```\n\n```python\n\n\n```\n\n```python\nnums[-2] = 44\nprint(nums)\n#添加\nnums.append(55)\nprint(nums)\n#插入\nnums.insert(5, 7 ** 7)\nprint(nums)\n#删除\ndel nums[5]\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "poped",
+        "kind": 5,
+        "importPath": "day01.321",
+        "description": "day01.321",
+        "peekOfCode": "poped = nums.pop(-1)\nprint(poped)\nprint(nums)",
+        "detail": "day01.321",
+        "documentation": {
+            "value": "\n```python\nfrom day01.321 import poped\n```\n\n```python\n\n\n```\n\n```python\npoped = nums.pop(-1)\nprint(poped)\nprint(nums)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "cars",
+        "kind": 5,
+        "importPath": "day01.331",
+        "description": "day01.331",
+        "peekOfCode": "cars = ['bmw' , 'audi', 'toyota' , 'subaru']\ncars.sort()\nprint(cars)\nnums = [4,6,8,2,5,3,9,]\nsortedNums = sorted(nums)\nprint(str(nums) + \"\\n\" + str(sortedNums))\nsortedNums.reverse()\nprint(sortedNums)\nx = len(nums) + 5\nprint(x)",
+        "detail": "day01.331",
+        "documentation": {
+            "value": "\n```python\nfrom day01.331 import cars\n```\n\n```python\n\n\n```\n\n```python\ncars = ['bmw' , 'audi', 'toyota' , 'subaru']\ncars.sort()\nprint(cars)\nnums = [4,6,8,2,5,3,9,]\nsortedNums = sorted(nums)\nprint(str(nums) + \"\\n\" + str(sortedNums))\nsortedNums.reverse()\nprint(sortedNums)\nx = len(nums) + 5\nprint(x)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "nums",
+        "kind": 5,
+        "importPath": "day01.331",
+        "description": "day01.331",
+        "peekOfCode": "nums = [4,6,8,2,5,3,9,]\nsortedNums = sorted(nums)\nprint(str(nums) + \"\\n\" + str(sortedNums))\nsortedNums.reverse()\nprint(sortedNums)\nx = len(nums) + 5\nprint(x)",
+        "detail": "day01.331",
+        "documentation": {
+            "value": "\n```python\nfrom day01.331 import nums\n```\n\n```python\n\n\n```\n\n```python\nnums = [4,6,8,2,5,3,9,]\nsortedNums = sorted(nums)\nprint(str(nums) + \"\\n\" + str(sortedNums))\nsortedNums.reverse()\nprint(sortedNums)\nx = len(nums) + 5\nprint(x)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "sortedNums",
+        "kind": 5,
+        "importPath": "day01.331",
+        "description": "day01.331",
+        "peekOfCode": "sortedNums = sorted(nums)\nprint(str(nums) + \"\\n\" + str(sortedNums))\nsortedNums.reverse()\nprint(sortedNums)\nx = len(nums) + 5\nprint(x)",
+        "detail": "day01.331",
+        "documentation": {
+            "value": "\n```python\nfrom day01.331 import sortedNums\n```\n\n```python\n\n\n```\n\n```python\nsortedNums = sorted(nums)\nprint(str(nums) + \"\\n\" + str(sortedNums))\nsortedNums.reverse()\nprint(sortedNums)\nx = len(nums) + 5\nprint(x)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "day01.331",
+        "description": "day01.331",
+        "peekOfCode": "x = len(nums) + 5\nprint(x)",
+        "detail": "day01.331",
+        "documentation": {
+            "value": "\n```python\nfrom day01.331 import x\n```\n\n```python\n\n\n```\n\n```python\nx = len(nums) + 5\nprint(x)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "names",
+        "kind": 5,
+        "importPath": "day01.exercise",
+        "description": "day01.exercise",
+        "peekOfCode": "names = ['Yu Bo' , 'LHL' , 'zsh2401']\nprint(names[0])\nprint(names[1])\nprint(names[2])\n# 3-2 print msg\nmsg1 = names[0] + \" is very handsome\"\nmsg2 = names[1] + \" is good\"\nmsg3 = names[2] + \" is very nb\"\nprint(msg1)\nprint(msg2)",
+        "detail": "day01.exercise",
+        "documentation": {
+            "value": "\n```python\nfrom day01.exercise import names\n```\n\n```python\n\n\n```\n\n```python\nnames = ['Yu Bo' , 'LHL' , 'zsh2401']\nprint(names[0])\nprint(names[1])\nprint(names[2])\n# 3-2 print msg\nmsg1 = names[0] + \" is very handsome\"\nmsg2 = names[1] + \" is good\"\nmsg3 = names[2] + \" is very nb\"\nprint(msg1)\nprint(msg2)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "msg1",
+        "kind": 5,
+        "importPath": "day01.exercise",
+        "description": "day01.exercise",
+        "peekOfCode": "msg1 = names[0] + \" is very handsome\"\nmsg2 = names[1] + \" is good\"\nmsg3 = names[2] + \" is very nb\"\nprint(msg1)\nprint(msg2)\nprint(msg3)\n# 3-3 print like ways of travelling\nways = ['car' , 'ship' , 'motorcycle']\nmsg4 = names[0] + \" would like to own a \" + ways[0]\nmsg5 = names[1] + \" would like to own a \" + ways[1]",
+        "detail": "day01.exercise",
+        "documentation": {
+            "value": "\n```python\nfrom day01.exercise import msg1\n```\n\n```python\n\n\n```\n\n```python\nmsg1 = names[0] + \" is very handsome\"\nmsg2 = names[1] + \" is good\"\nmsg3 = names[2] + \" is very nb\"\nprint(msg1)\nprint(msg2)\nprint(msg3)\n# 3-3 print like ways of travelling\nways = ['car' , 'ship' , 'motorcycle']\nmsg4 = names[0] + \" would like to own a \" + ways[0]\nmsg5 = names[1] + \" would like to own a \" + ways[1]\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "msg2",
+        "kind": 5,
+        "importPath": "day01.exercise",
+        "description": "day01.exercise",
+        "peekOfCode": "msg2 = names[1] + \" is good\"\nmsg3 = names[2] + \" is very nb\"\nprint(msg1)\nprint(msg2)\nprint(msg3)\n# 3-3 print like ways of travelling\nways = ['car' , 'ship' , 'motorcycle']\nmsg4 = names[0] + \" would like to own a \" + ways[0]\nmsg5 = names[1] + \" would like to own a \" + ways[1]\nmsg6 = names[2] + \" would like to own a \" + ways[2]",
+        "detail": "day01.exercise",
+        "documentation": {
+            "value": "\n```python\nfrom day01.exercise import msg2\n```\n\n```python\n\n\n```\n\n```python\nmsg2 = names[1] + \" is good\"\nmsg3 = names[2] + \" is very nb\"\nprint(msg1)\nprint(msg2)\nprint(msg3)\n# 3-3 print like ways of travelling\nways = ['car' , 'ship' , 'motorcycle']\nmsg4 = names[0] + \" would like to own a \" + ways[0]\nmsg5 = names[1] + \" would like to own a \" + ways[1]\nmsg6 = names[2] + \" would like to own a \" + ways[2]\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "msg3",
+        "kind": 5,
+        "importPath": "day01.exercise",
+        "description": "day01.exercise",
+        "peekOfCode": "msg3 = names[2] + \" is very nb\"\nprint(msg1)\nprint(msg2)\nprint(msg3)\n# 3-3 print like ways of travelling\nways = ['car' , 'ship' , 'motorcycle']\nmsg4 = names[0] + \" would like to own a \" + ways[0]\nmsg5 = names[1] + \" would like to own a \" + ways[1]\nmsg6 = names[2] + \" would like to own a \" + ways[2]\nprint(msg4)",
+        "detail": "day01.exercise",
+        "documentation": {
+            "value": "\n```python\nfrom day01.exercise import msg3\n```\n\n```python\n\n\n```\n\n```python\nmsg3 = names[2] + \" is very nb\"\nprint(msg1)\nprint(msg2)\nprint(msg3)\n# 3-3 print like ways of travelling\nways = ['car' , 'ship' , 'motorcycle']\nmsg4 = names[0] + \" would like to own a \" + ways[0]\nmsg5 = names[1] + \" would like to own a \" + ways[1]\nmsg6 = names[2] + \" would like to own a \" + ways[2]\nprint(msg4)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "ways",
+        "kind": 5,
+        "importPath": "day01.exercise",
+        "description": "day01.exercise",
+        "peekOfCode": "ways = ['car' , 'ship' , 'motorcycle']\nmsg4 = names[0] + \" would like to own a \" + ways[0]\nmsg5 = names[1] + \" would like to own a \" + ways[1]\nmsg6 = names[2] + \" would like to own a \" + ways[2]\nprint(msg4)\nprint(msg5)\nprint(msg6)",
+        "detail": "day01.exercise",
+        "documentation": {
+            "value": "\n```python\nfrom day01.exercise import ways\n```\n\n```python\n\n\n```\n\n```python\nways = ['car' , 'ship' , 'motorcycle']\nmsg4 = names[0] + \" would like to own a \" + ways[0]\nmsg5 = names[1] + \" would like to own a \" + ways[1]\nmsg6 = names[2] + \" would like to own a \" + ways[2]\nprint(msg4)\nprint(msg5)\nprint(msg6)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "msg4",
+        "kind": 5,
+        "importPath": "day01.exercise",
+        "description": "day01.exercise",
+        "peekOfCode": "msg4 = names[0] + \" would like to own a \" + ways[0]\nmsg5 = names[1] + \" would like to own a \" + ways[1]\nmsg6 = names[2] + \" would like to own a \" + ways[2]\nprint(msg4)\nprint(msg5)\nprint(msg6)",
+        "detail": "day01.exercise",
+        "documentation": {
+            "value": "\n```python\nfrom day01.exercise import msg4\n```\n\n```python\n\n\n```\n\n```python\nmsg4 = names[0] + \" would like to own a \" + ways[0]\nmsg5 = names[1] + \" would like to own a \" + ways[1]\nmsg6 = names[2] + \" would like to own a \" + ways[2]\nprint(msg4)\nprint(msg5)\nprint(msg6)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "msg5",
+        "kind": 5,
+        "importPath": "day01.exercise",
+        "description": "day01.exercise",
+        "peekOfCode": "msg5 = names[1] + \" would like to own a \" + ways[1]\nmsg6 = names[2] + \" would like to own a \" + ways[2]\nprint(msg4)\nprint(msg5)\nprint(msg6)",
+        "detail": "day01.exercise",
+        "documentation": {
+            "value": "\n```python\nfrom day01.exercise import msg5\n```\n\n```python\n\n\n```\n\n```python\nmsg5 = names[1] + \" would like to own a \" + ways[1]\nmsg6 = names[2] + \" would like to own a \" + ways[2]\nprint(msg4)\nprint(msg5)\nprint(msg6)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "msg6",
+        "kind": 5,
+        "importPath": "day01.exercise",
+        "description": "day01.exercise",
+        "peekOfCode": "msg6 = names[2] + \" would like to own a \" + ways[2]\nprint(msg4)\nprint(msg5)\nprint(msg6)",
+        "detail": "day01.exercise",
+        "documentation": {
+            "value": "\n```python\nfrom day01.exercise import msg6\n```\n\n```python\n\n\n```\n\n```python\nmsg6 = names[2] + \" would like to own a \" + ways[2]\nprint(msg4)\nprint(msg5)\nprint(msg6)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "places",
+        "kind": 5,
+        "importPath": "day01.exercise3-3",
+        "description": "day01.exercise3-3",
+        "peekOfCode": "places = ['KunMing', 'ChengDu', 'ShangHai', 'BeiJing', 'GuiLing']\nprint(places)\n#排序，不改变原来变量\nsortedplaces = sorted(places)\nprint(sortedplaces)\n#核实没有改变变量\nprint(places)\n#反排序并且不修改变量\nsortedplaces.reverse()\nprint(sortedplaces)",
+        "detail": "day01.exercise3-3",
+        "documentation": {
+            "value": "\n```python\nfrom day01.exercise3-3 import places\n```\n\n```python\n\n\n```\n\n```python\nplaces = ['KunMing', 'ChengDu', 'ShangHai', 'BeiJing', 'GuiLing']\nprint(places)\n#排序，不改变原来变量\nsortedplaces = sorted(places)\nprint(sortedplaces)\n#核实没有改变变量\nprint(places)\n#反排序并且不修改变量\nsortedplaces.reverse()\nprint(sortedplaces)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "sortedplaces",
+        "kind": 5,
+        "importPath": "day01.exercise3-3",
+        "description": "day01.exercise3-3",
+        "peekOfCode": "sortedplaces = sorted(places)\nprint(sortedplaces)\n#核实没有改变变量\nprint(places)\n#反排序并且不修改变量\nsortedplaces.reverse()\nprint(sortedplaces)\n#核实没有修改变量\nprint(places)\n#改变变量，反排序",
+        "detail": "day01.exercise3-3",
+        "documentation": {
+            "value": "\n```python\nfrom day01.exercise3-3 import sortedplaces\n```\n\n```python\n\n\n```\n\n```python\nsortedplaces = sorted(places)\nprint(sortedplaces)\n#核实没有改变变量\nprint(places)\n#反排序并且不修改变量\nsortedplaces.reverse()\nprint(sortedplaces)\n#核实没有修改变量\nprint(places)\n#改变变量，反排序\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "names",
+        "kind": 5,
+        "importPath": "day01.exercise3-3",
+        "description": "day01.exercise3-3",
+        "peekOfCode": "names = ['YB', 'LHL', 'ZSH2401']\nlen(names)\nprint(len(names))\nprint(\"\\n\")\n#3-10\nnums = [5,6,3,0]\n#打印列表\nprint(nums)\n#访问元素\nprint(nums[0])",
+        "detail": "day01.exercise3-3",
+        "documentation": {
+            "value": "\n```python\nfrom day01.exercise3-3 import names\n```\n\n```python\n\n\n```\n\n```python\nnames = ['YB', 'LHL', 'ZSH2401']\nlen(names)\nprint(len(names))\nprint(\"\\n\")\n#3-10\nnums = [5,6,3,0]\n#打印列表\nprint(nums)\n#访问元素\nprint(nums[0])\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "nums",
+        "kind": 5,
+        "importPath": "day01.exercise3-3",
+        "description": "day01.exercise3-3",
+        "peekOfCode": "nums = [5,6,3,0]\n#打印列表\nprint(nums)\n#访问元素\nprint(nums[0])\nprint(nums[1])\nprint(nums[2])\nprint(nums[3])\n#使用元素\nmsg = \"I have \" + str(nums[0]) +  \" fingers\"",
+        "detail": "day01.exercise3-3",
+        "documentation": {
+            "value": "\n```python\nfrom day01.exercise3-3 import nums\n```\n\n```python\n\n\n```\n\n```python\nnums = [5,6,3,0]\n#打印列表\nprint(nums)\n#访问元素\nprint(nums[0])\nprint(nums[1])\nprint(nums[2])\nprint(nums[3])\n#使用元素\nmsg = \"I have \" + str(nums[0]) +  \" fingers\"\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "msg",
+        "kind": 5,
+        "importPath": "day01.exercise3-3",
+        "description": "day01.exercise3-3",
+        "peekOfCode": "msg = \"I have \" + str(nums[0]) +  \" fingers\"\nprint(msg)\n#修改元素\nnums[0] = 1\nprint(nums)\n#添加，插入，删除元素\nnums.append(1)\nprint(nums)\nnums.insert(2,4)\nprint(nums)",
+        "detail": "day01.exercise3-3",
+        "documentation": {
+            "value": "\n```python\nfrom day01.exercise3-3 import msg\n```\n\n```python\n\n\n```\n\n```python\nmsg = \"I have \" + str(nums[0]) +  \" fingers\"\nprint(msg)\n#修改元素\nnums[0] = 1\nprint(nums)\n#添加，插入，删除元素\nnums.append(1)\nprint(nums)\nnums.insert(2,4)\nprint(nums)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "nums[0]",
+        "kind": 5,
+        "importPath": "day01.exercise3-3",
+        "description": "day01.exercise3-3",
+        "peekOfCode": "nums[0] = 1\nprint(nums)\n#添加，插入，删除元素\nnums.append(1)\nprint(nums)\nnums.insert(2,4)\nprint(nums)\ndel nums[-2]\nprint(nums)\n#弹出",
+        "detail": "day01.exercise3-3",
+        "documentation": {
+            "value": "\n```python\nfrom day01.exercise3-3 import nums[0]\n```\n\n```python\n\n\n```\n\n```python\nnums[0] = 1\nprint(nums)\n#添加，插入，删除元素\nnums.append(1)\nprint(nums)\nnums.insert(2,4)\nprint(nums)\ndel nums[-2]\nprint(nums)\n#弹出\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "popnums",
+        "kind": 5,
+        "importPath": "day01.exercise3-3",
+        "description": "day01.exercise3-3",
+        "peekOfCode": "popnums = nums.pop(1)\nprint(\"I have \" + str(popnums) + \" RMB\")\nprint(nums)\n#根据值删除元素\nnums.remove(1)\nprint(nums)\n#临时排序\nsortednums = sorted(nums)\nprint(sortednums)\nprint(nums)",
+        "detail": "day01.exercise3-3",
+        "documentation": {
+            "value": "\n```python\nfrom day01.exercise3-3 import popnums\n```\n\n```python\n\n\n```\n\n```python\npopnums = nums.pop(1)\nprint(\"I have \" + str(popnums) + \" RMB\")\nprint(nums)\n#根据值删除元素\nnums.remove(1)\nprint(nums)\n#临时排序\nsortednums = sorted(nums)\nprint(sortednums)\nprint(nums)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "sortednums",
+        "kind": 5,
+        "importPath": "day01.exercise3-3",
+        "description": "day01.exercise3-3",
+        "peekOfCode": "sortednums = sorted(nums)\nprint(sortednums)\nprint(nums)\n#永久性排序\nnums.sort()\nprint(nums)\n#反排序\nnums.reverse()\nprint(nums)\n#确定长度",
+        "detail": "day01.exercise3-3",
+        "documentation": {
+            "value": "\n```python\nfrom day01.exercise3-3 import sortednums\n```\n\n```python\n\n\n```\n\n```python\nsortednums = sorted(nums)\nprint(sortednums)\nprint(nums)\n#永久性排序\nnums.sort()\nprint(nums)\n#反排序\nnums.reverse()\nprint(nums)\n#确定长度\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "lenght",
+        "kind": 5,
+        "importPath": "day01.exercise3-3",
+        "description": "day01.exercise3-3",
+        "peekOfCode": "lenght = len(nums)\nprint(lenght)",
+        "detail": "day01.exercise3-3",
+        "documentation": {
+            "value": "\n```python\nfrom day01.exercise3-3 import lenght\n```\n\n```python\n\n\n```\n\n```python\nlenght = len(nums)\nprint(lenght)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "names",
+        "kind": 5,
+        "importPath": "day01.exercise3",
+        "description": "day01.exercise3",
+        "peekOfCode": "names = ['YB' , 'LHL' , 'ZSH2401']\nprint(str(names) + \" can come\")\n#3_5 Replace\nprint(names[0] + \" can't come\")\nnames[0] = 'YH'\nprint(str(names) + \" can come\" )\n#3-6 Add\nprint(\"I found a big table\")\nnames.insert(0 , 'MY')\nnames.insert(2, 'HXY')",
+        "detail": "day01.exercise3",
+        "documentation": {
+            "value": "\n```python\nfrom day01.exercise3 import names\n```\n\n```python\n\n\n```\n\n```python\nnames = ['YB' , 'LHL' , 'ZSH2401']\nprint(str(names) + \" can come\")\n#3_5 Replace\nprint(names[0] + \" can't come\")\nnames[0] = 'YH'\nprint(str(names) + \" can come\" )\n#3-6 Add\nprint(\"I found a big table\")\nnames.insert(0 , 'MY')\nnames.insert(2, 'HXY')\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "names[0]",
+        "kind": 5,
+        "importPath": "day01.exercise3",
+        "description": "day01.exercise3",
+        "peekOfCode": "names[0] = 'YH'\nprint(str(names) + \" can come\" )\n#3-6 Add\nprint(\"I found a big table\")\nnames.insert(0 , 'MY')\nnames.insert(2, 'HXY')\nnames.append('TMC')\nprint(str(names) + \" can come\")\n#3-7\nprint(\"only two people to come\")",
+        "detail": "day01.exercise3",
+        "documentation": {
+            "value": "\n```python\nfrom day01.exercise3 import names[0]\n```\n\n```python\n\n\n```\n\n```python\nnames[0] = 'YH'\nprint(str(names) + \" can come\" )\n#3-6 Add\nprint(\"I found a big table\")\nnames.insert(0 , 'MY')\nnames.insert(2, 'HXY')\nnames.append('TMC')\nprint(str(names) + \" can come\")\n#3-7\nprint(\"only two people to come\")\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "firstname",
+        "kind": 5,
+        "importPath": "day01.exercise3",
+        "description": "day01.exercise3",
+        "peekOfCode": "firstname = names.pop(0)\nsecondname = names.pop(0)\nthirdname = names.pop(0)\nfourthname = names.pop(0)\nprint(firstname + \" can't come\")\nprint(secondname + \" can't come\")\nprint(thirdname + \" can't come\")\nprint(fourthname + \" can't come\")\nprint(names[0] + \" can come\")\nprint(names[1] + \" can come\")",
+        "detail": "day01.exercise3",
+        "documentation": {
+            "value": "\n```python\nfrom day01.exercise3 import firstname\n```\n\n```python\n\n\n```\n\n```python\nfirstname = names.pop(0)\nsecondname = names.pop(0)\nthirdname = names.pop(0)\nfourthname = names.pop(0)\nprint(firstname + \" can't come\")\nprint(secondname + \" can't come\")\nprint(thirdname + \" can't come\")\nprint(fourthname + \" can't come\")\nprint(names[0] + \" can come\")\nprint(names[1] + \" can come\")\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "secondname",
+        "kind": 5,
+        "importPath": "day01.exercise3",
+        "description": "day01.exercise3",
+        "peekOfCode": "secondname = names.pop(0)\nthirdname = names.pop(0)\nfourthname = names.pop(0)\nprint(firstname + \" can't come\")\nprint(secondname + \" can't come\")\nprint(thirdname + \" can't come\")\nprint(fourthname + \" can't come\")\nprint(names[0] + \" can come\")\nprint(names[1] + \" can come\")\ndel names[0]",
+        "detail": "day01.exercise3",
+        "documentation": {
+            "value": "\n```python\nfrom day01.exercise3 import secondname\n```\n\n```python\n\n\n```\n\n```python\nsecondname = names.pop(0)\nthirdname = names.pop(0)\nfourthname = names.pop(0)\nprint(firstname + \" can't come\")\nprint(secondname + \" can't come\")\nprint(thirdname + \" can't come\")\nprint(fourthname + \" can't come\")\nprint(names[0] + \" can come\")\nprint(names[1] + \" can come\")\ndel names[0]\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "thirdname",
+        "kind": 5,
+        "importPath": "day01.exercise3",
+        "description": "day01.exercise3",
+        "peekOfCode": "thirdname = names.pop(0)\nfourthname = names.pop(0)\nprint(firstname + \" can't come\")\nprint(secondname + \" can't come\")\nprint(thirdname + \" can't come\")\nprint(fourthname + \" can't come\")\nprint(names[0] + \" can come\")\nprint(names[1] + \" can come\")\ndel names[0]\ndel names[0]",
+        "detail": "day01.exercise3",
+        "documentation": {
+            "value": "\n```python\nfrom day01.exercise3 import thirdname\n```\n\n```python\n\n\n```\n\n```python\nthirdname = names.pop(0)\nfourthname = names.pop(0)\nprint(firstname + \" can't come\")\nprint(secondname + \" can't come\")\nprint(thirdname + \" can't come\")\nprint(fourthname + \" can't come\")\nprint(names[0] + \" can come\")\nprint(names[1] + \" can come\")\ndel names[0]\ndel names[0]\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "fourthname",
+        "kind": 5,
+        "importPath": "day01.exercise3",
+        "description": "day01.exercise3",
+        "peekOfCode": "fourthname = names.pop(0)\nprint(firstname + \" can't come\")\nprint(secondname + \" can't come\")\nprint(thirdname + \" can't come\")\nprint(fourthname + \" can't come\")\nprint(names[0] + \" can come\")\nprint(names[1] + \" can come\")\ndel names[0]\ndel names[0]\nprint(names)",
+        "detail": "day01.exercise3",
+        "documentation": {
+            "value": "\n```python\nfrom day01.exercise3 import fourthname\n```\n\n```python\n\n\n```\n\n```python\nfourthname = names.pop(0)\nprint(firstname + \" can't come\")\nprint(secondname + \" can't come\")\nprint(thirdname + \" can't come\")\nprint(fourthname + \" can't come\")\nprint(names[0] + \" can come\")\nprint(names[1] + \" can come\")\ndel names[0]\ndel names[0]\nprint(names)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "xlist",
+        "kind": 5,
+        "importPath": "day02.43",
+        "description": "day02.43",
+        "peekOfCode": "xlist = list(range(1,6))\nprint(xlist)\nprint(len(xlist))\nsquares = []\nfor value in range(1,11):\n    squares.append(value ** 2)\nprint(squares)",
+        "detail": "day02.43",
+        "documentation": {
+            "value": "\n```python\nfrom day02.43 import xlist\n```\n\n```python\n\n\n```\n\n```python\nxlist = list(range(1,6))\nprint(xlist)\nprint(len(xlist))\nsquares = []\nfor value in range(1,11):\n    squares.append(value ** 2)\nprint(squares)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "squares",
+        "kind": 5,
+        "importPath": "day02.43",
+        "description": "day02.43",
+        "peekOfCode": "squares = []\nfor value in range(1,11):\n    squares.append(value ** 2)\nprint(squares)",
+        "detail": "day02.43",
+        "documentation": {
+            "value": "\n```python\nfrom day02.43 import squares\n```\n\n```python\n\n\n```\n\n```python\nsquares = []\nfor value in range(1,11):\n    squares.append(value ** 2)\nprint(squares)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "nums",
+        "kind": 5,
+        "importPath": "day02.441",
+        "description": "day02.441",
+        "peekOfCode": "nums = [0,1,2,3,4,5]\nprint(nums[2:4]) \nprint(nums[:4])\nprint(nums[4:6])\nprint(nums[-2:])\nprint(nums[4:])",
+        "detail": "day02.441",
+        "documentation": {
+            "value": "\n```python\nfrom day02.441 import nums\n```\n\n```python\n\n\n```\n\n```python\nnums = [0,1,2,3,4,5]\nprint(nums[2:4]) \nprint(nums[:4])\nprint(nums[4:6])\nprint(nums[-2:])\nprint(nums[4:])\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "nums",
+        "kind": 5,
+        "importPath": "day02.442",
+        "description": "day02.442",
+        "peekOfCode": "nums = [0, 1, 2, 3, 4, 5]\nfor x in nums[4:6]:\n    print(x)",
+        "detail": "day02.442",
+        "documentation": {
+            "value": "\n```python\nfrom day02.442 import nums\n```\n\n```python\n\n\n```\n\n```python\nnums = [0, 1, 2, 3, 4, 5]\nfor x in nums[4:6]:\n    print(x)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "nums",
+        "kind": 5,
+        "importPath": "day02.443",
+        "description": "day02.443",
+        "peekOfCode": "nums = [1,2,3,4,5,6,7]\nnums2 = [1, 2, 3, 4, 5,6,7]\nnums2 = nums\nprint(nums)\nprint(nums2)\nnums.append(2401)\nprint(len(nums))\nprint(len(nums2))\nprint(nums)\nprint(nums2)",
+        "detail": "day02.443",
+        "documentation": {
+            "value": "\n```python\nfrom day02.443 import nums\n```\n\n```python\n\n\n```\n\n```python\nnums = [1,2,3,4,5,6,7]\nnums2 = [1, 2, 3, 4, 5,6,7]\nnums2 = nums\nprint(nums)\nprint(nums2)\nnums.append(2401)\nprint(len(nums))\nprint(len(nums2))\nprint(nums)\nprint(nums2)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "nums2",
+        "kind": 5,
+        "importPath": "day02.443",
+        "description": "day02.443",
+        "peekOfCode": "nums2 = [1, 2, 3, 4, 5,6,7]\nnums2 = nums\nprint(nums)\nprint(nums2)\nnums.append(2401)\nprint(len(nums))\nprint(len(nums2))\nprint(nums)\nprint(nums2)\nnums3 = nums[:]",
+        "detail": "day02.443",
+        "documentation": {
+            "value": "\n```python\nfrom day02.443 import nums2\n```\n\n```python\n\n\n```\n\n```python\nnums2 = [1, 2, 3, 4, 5,6,7]\nnums2 = nums\nprint(nums)\nprint(nums2)\nnums.append(2401)\nprint(len(nums))\nprint(len(nums2))\nprint(nums)\nprint(nums2)\nnums3 = nums[:]\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "nums2",
+        "kind": 5,
+        "importPath": "day02.443",
+        "description": "day02.443",
+        "peekOfCode": "nums2 = nums\nprint(nums)\nprint(nums2)\nnums.append(2401)\nprint(len(nums))\nprint(len(nums2))\nprint(nums)\nprint(nums2)\nnums3 = nums[:]\nnums3.append(2401)",
+        "detail": "day02.443",
+        "documentation": {
+            "value": "\n```python\nfrom day02.443 import nums2\n```\n\n```python\n\n\n```\n\n```python\nnums2 = nums\nprint(nums)\nprint(nums2)\nnums.append(2401)\nprint(len(nums))\nprint(len(nums2))\nprint(nums)\nprint(nums2)\nnums3 = nums[:]\nnums3.append(2401)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "nums3",
+        "kind": 5,
+        "importPath": "day02.443",
+        "description": "day02.443",
+        "peekOfCode": "nums3 = nums[:]\nnums3.append(2401)\nprint(len(nums3))\nprint(nums3)",
+        "detail": "day02.443",
+        "documentation": {
+            "value": "\n```python\nfrom day02.443 import nums3\n```\n\n```python\n\n\n```\n\n```python\nnums3 = nums[:]\nnums3.append(2401)\nprint(len(nums3))\nprint(nums3)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "point3D",
+        "kind": 5,
+        "importPath": "day02.451",
+        "description": "day02.451",
+        "peekOfCode": "point3D = (98,66,55,1)\nprint(point3D)\nsorted_point = sorted(point3D)\nprint(sorted_point)",
+        "detail": "day02.451",
+        "documentation": {
+            "value": "\n```python\nfrom day02.451 import point3D\n```\n\n```python\n\n\n```\n\n```python\npoint3D = (98,66,55,1)\nprint(point3D)\nsorted_point = sorted(point3D)\nprint(sorted_point)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "sorted_point",
+        "kind": 5,
+        "importPath": "day02.451",
+        "description": "day02.451",
+        "peekOfCode": "sorted_point = sorted(point3D)\nprint(sorted_point)",
+        "detail": "day02.451",
+        "documentation": {
+            "value": "\n```python\nfrom day02.451 import sorted_point\n```\n\n```python\n\n\n```\n\n```python\nsorted_point = sorted(point3D)\nprint(sorted_point)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "names",
+        "kind": 5,
+        "importPath": "day02.exercise4-1",
+        "description": "day02.exercise4-1",
+        "peekOfCode": "names = ['YB' , 'LHL' ,'ZSH']\nfor name in names:\n    print(name + \"\\n\")\n#加入句子\nfor name in names:\n    print( name  + \" is good\" + \"\")\n#末尾加句子\nfor name in names:\n    print(name + \" is good\")\nprint(\"over\")",
+        "detail": "day02.exercise4-1",
+        "documentation": {
+            "value": "\n```python\nfrom day02.exercise4-1 import names\n```\n\n```python\n\n\n```\n\n```python\nnames = ['YB' , 'LHL' ,'ZSH']\nfor name in names:\n    print(name + \"\\n\")\n#加入句子\nfor name in names:\n    print( name  + \" is good\" + \"\")\n#末尾加句子\nfor name in names:\n    print(name + \" is good\")\nprint(\"over\")\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "nums",
+        "kind": 5,
+        "importPath": "day02.exercise4-10",
+        "description": "day02.exercise4-10",
+        "peekOfCode": "nums = [1,2,3,4,5,6,7,8,9]\nprint(\"Teh first three items in the list are : \" + \"\\n\" + str(nums[:3]))\nprint(\"Three items from the middle of the list are :  \" + \"\\n\" + str(nums[3:6]))\nprint(\"Teh last three items in the list are : \" + \"\\n\" + str(nums[-3:]))",
+        "detail": "day02.exercise4-10",
+        "documentation": {
+            "value": "\n```python\nfrom day02.exercise4-10 import nums\n```\n\n```python\n\n\n```\n\n```python\nnums = [1,2,3,4,5,6,7,8,9]\nprint(\"Teh first three items in the list are : \" + \"\\n\" + str(nums[:3]))\nprint(\"Three items from the middle of the list are :  \" + \"\\n\" + str(nums[3:6]))\nprint(\"Teh last three items in the list are : \" + \"\\n\" + str(nums[-3:]))\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "names",
+        "kind": 5,
+        "importPath": "day02.exercise4-11",
+        "description": "day02.exercise4-11",
+        "peekOfCode": "names = ['YB', 'LHL', 'ZSH']\n#创建副本\nfriend_names = names[:]\n#原来中加入一个元素\nnames.append('YH')\n#副本中加入一个元素\nfriend_names.append('MY')\n#核实列表不同\nfor name in names:\n    print(\"My friends are : \" + name)",
+        "detail": "day02.exercise4-11",
+        "documentation": {
+            "value": "\n```python\nfrom day02.exercise4-11 import names\n```\n\n```python\n\n\n```\n\n```python\nnames = ['YB', 'LHL', 'ZSH']\n#创建副本\nfriend_names = names[:]\n#原来中加入一个元素\nnames.append('YH')\n#副本中加入一个元素\nfriend_names.append('MY')\n#核实列表不同\nfor name in names:\n    print(\"My friends are : \" + name)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "friend_names",
+        "kind": 5,
+        "importPath": "day02.exercise4-11",
+        "description": "day02.exercise4-11",
+        "peekOfCode": "friend_names = names[:]\n#原来中加入一个元素\nnames.append('YH')\n#副本中加入一个元素\nfriend_names.append('MY')\n#核实列表不同\nfor name in names:\n    print(\"My friends are : \" + name)\nfor friend_name in friend_names:\n    print(\"My friend's friends are :\" + friend_name)",
+        "detail": "day02.exercise4-11",
+        "documentation": {
+            "value": "\n```python\nfrom day02.exercise4-11 import friend_names\n```\n\n```python\n\n\n```\n\n```python\nfriend_names = names[:]\n#原来中加入一个元素\nnames.append('YH')\n#副本中加入一个元素\nfriend_names.append('MY')\n#核实列表不同\nfor name in names:\n    print(\"My friends are : \" + name)\nfor friend_name in friend_names:\n    print(\"My friend's friends are :\" + friend_name)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "foods",
+        "kind": 5,
+        "importPath": "day02.exercise4-13",
+        "description": "day02.exercise4-13",
+        "peekOfCode": "foods = ('pizza','cake','falafel')\nfor food in foods:\n    print(food)\nprint(\"\\n\")\n#修改元素\n#foods[0] = fish\n#报错 \n#调整菜单\nfoods = ('fish', 'pizza', 'cake', 'falafel','hamburger')\nfor food in foods:",
+        "detail": "day02.exercise4-13",
+        "documentation": {
+            "value": "\n```python\nfrom day02.exercise4-13 import foods\n```\n\n```python\n\n\n```\n\n```python\nfoods = ('pizza','cake','falafel')\nfor food in foods:\n    print(food)\nprint(\"\\n\")\n#修改元素\n#foods[0] = fish\n#报错 \n#调整菜单\nfoods = ('fish', 'pizza', 'cake', 'falafel','hamburger')\nfor food in foods:\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "#foods[0]",
+        "kind": 5,
+        "importPath": "day02.exercise4-13",
+        "description": "day02.exercise4-13",
+        "peekOfCode": "#foods[0] = fish\n#报错 \n#调整菜单\nfoods = ('fish', 'pizza', 'cake', 'falafel','hamburger')\nfor food in foods:\n    print(food)",
+        "detail": "day02.exercise4-13",
+        "documentation": {
+            "value": "\n```python\nfrom day02.exercise4-13 import #foods[0]\n```\n\n```python\n\n\n```\n\n```python\n#foods[0] = fish\n#报错 \n#调整菜单\nfoods = ('fish', 'pizza', 'cake', 'falafel','hamburger')\nfor food in foods:\n    print(food)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "foods",
+        "kind": 5,
+        "importPath": "day02.exercise4-13",
+        "description": "day02.exercise4-13",
+        "peekOfCode": "foods = ('fish', 'pizza', 'cake', 'falafel','hamburger')\nfor food in foods:\n    print(food)",
+        "detail": "day02.exercise4-13",
+        "documentation": {
+            "value": "\n```python\nfrom day02.exercise4-13 import foods\n```\n\n```python\n\n\n```\n\n```python\nfoods = ('fish', 'pizza', 'cake', 'falafel','hamburger')\nfor food in foods:\n    print(food)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "nums",
+        "kind": 5,
+        "importPath": "day02.exercise4-5",
+        "description": "day02.exercise4-5",
+        "peekOfCode": "nums = []\nfor value in range(1,1000001):\n    nums.append(value)\nprint(nums)\n#核实最大最小,计算和\nprint(min(nums))\nprint(max(nums))\nprint(sum(nums))",
+        "detail": "day02.exercise4-5",
+        "documentation": {
+            "value": "\n```python\nfrom day02.exercise4-5 import nums\n```\n\n```python\n\n\n```\n\n```python\nnums = []\nfor value in range(1,1000001):\n    nums.append(value)\nprint(nums)\n#核实最大最小,计算和\nprint(min(nums))\nprint(max(nums))\nprint(sum(nums))\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "nums",
+        "kind": 5,
+        "importPath": "day02.exercise4-7",
+        "description": "day02.exercise4-7",
+        "peekOfCode": "nums = []\nfor value in range(3,31,3):\n    num = value\n    nums.append(num)\nprint(nums)",
+        "detail": "day02.exercise4-7",
+        "documentation": {
+            "value": "\n```python\nfrom day02.exercise4-7 import nums\n```\n\n```python\n\n\n```\n\n```python\nnums = []\nfor value in range(3,31,3):\n    num = value\n    nums.append(num)\nprint(nums)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "nums",
+        "kind": 5,
+        "importPath": "day02.exercise4-9",
+        "description": "day02.exercise4-9",
+        "peekOfCode": "nums = [value**3 for value in range(1,11)]\nprint(nums)",
+        "detail": "day02.exercise4-9",
+        "documentation": {
+            "value": "\n```python\nfrom day02.exercise4-9 import nums\n```\n\n```python\n\n\n```\n\n```python\nnums = [value**3 for value in range(1,11)]\nprint(nums)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "names",
+        "kind": 5,
+        "importPath": "day02.listoperate",
+        "description": "day02.listoperate",
+        "peekOfCode": "names = ['LHL', 'YB','ZSH']\n# print(str(x[0]) + str(x[1]) + str(x[2]))\nprint(names)\nfor name in names:\n    print(name)\nx = 0\nprint(x)",
+        "detail": "day02.listoperate",
+        "documentation": {
+            "value": "\n```python\nfrom day02.listoperate import names\n```\n\n```python\n\n\n```\n\n```python\nnames = ['LHL', 'YB','ZSH']\n# print(str(x[0]) + str(x[1]) + str(x[2]))\nprint(names)\nfor name in names:\n    print(name)\nx = 0\nprint(x)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "day02.listoperate",
+        "description": "day02.listoperate",
+        "peekOfCode": "x = 0\nprint(x)",
+        "detail": "day02.listoperate",
+        "documentation": {
+            "value": "\n```python\nfrom day02.listoperate import x\n```\n\n```python\n\n\n```\n\n```python\nx = 0\nprint(x)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "Schoolpy.2-22",
+        "description": "Schoolpy.2-22",
+        "peekOfCode": "data = []\nfr = open('111.txt',encoding='utf-8')\nfor line in fr.readlines():\n    line = line.strip()\n    data_line = line.split(',')\n    data.append(data_line)\nprint(data[-1])\nfr.close()",
+        "detail": "Schoolpy.2-22",
+        "documentation": {
+            "value": "\n```python\nfrom Schoolpy.2-22 import data\n```\n\n```python\n\n\n```\n\n```python\ndata = []\nfr = open('111.txt',encoding='utf-8')\nfor line in fr.readlines():\n    line = line.strip()\n    data_line = line.split(',')\n    data.append(data_line)\nprint(data[-1])\nfr.close()\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "fr",
+        "kind": 5,
+        "importPath": "Schoolpy.2-22",
+        "description": "Schoolpy.2-22",
+        "peekOfCode": "fr = open('111.txt',encoding='utf-8')\nfor line in fr.readlines():\n    line = line.strip()\n    data_line = line.split(',')\n    data.append(data_line)\nprint(data[-1])\nfr.close()",
+        "detail": "Schoolpy.2-22",
+        "documentation": {
+            "value": "\n```python\nfrom Schoolpy.2-22 import fr\n```\n\n```python\n\n\n```\n\n```python\nfr = open('111.txt',encoding='utf-8')\nfor line in fr.readlines():\n    line = line.strip()\n    data_line = line.split(',')\n    data.append(data_line)\nprint(data[-1])\nfr.close()\n```\n",
+            "supportThemeIcons": false
+        }
+    }
+]
